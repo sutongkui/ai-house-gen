@@ -1,0 +1,17 @@
+# 敏感配置（含真实 API key，请用 config.example.json 模板自行填写）
+config.json
+API_KEYS.md
+
+# 评测脚本与测试素材（内部工具，不对外分享）
+/.e2e/
+/test-images/
+
+# 依赖
+node_modules/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/

@@ -1,0 +1,25 @@
+{
+  "providers": {
+    "hunyuan": {
+      "chat_url": "https://tokenlink.woa.com/openapi/v1/chat/completions",
+      "api_key": "替换为你的混元 key",
+      "models": {
+        "hy4": { "label": "混元 hy4", "supportsImages": true, "effort": "no_think", "efforts": ["no_think", "high"] },
+        "hy4-flash": { "label": "混元 hy4-flash", "supportsImages": true, "effort": "no_think", "efforts": ["no_think", "high"] }
+      }
+    },
+    "deepseek": {
+      "chat_url": "https://api.deepseek.com/chat/completions",
+      "api_key": "替换为你的 DeepSeek key",
+      "models": {
+        "deepseek-flash": { "label": "DeepSeek flash", "supportsImages": true, "effort": "low", "efforts": ["low", "high", "max"] },
+        "deepseek-v4-pro": { "label": "DeepSeek v4-pro", "supportsImages": false, "effort": "low", "efforts": ["low", "high", "max"] }
+      }
+    }
+  },
+  "embedding": {
+    "url": "http://hunyuanapi.woa.com/openapi/v1/embeddings",
+    "api_key": "替换为你的 embedding key",
+    "model": "hunyuan-embedding-20250716"
+  }
+}

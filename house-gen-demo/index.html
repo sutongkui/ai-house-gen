@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI 房屋生成 Demo · 一句话 → 设计参数 → 预制件</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="style.css?v=20261114e" />
+  <script src="https://cdn.jsdelivr.net/npm/@tencent-ai/workbuddy-cloud-sdk@dev/lib/index.global.js"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="app">
+    <aside id="panel">
+      <header class="brand">
+        <h1>AI 房屋生成</h1>
+        <p>一句话 / 参考图 → 设计参数 → 校验 / 求解 → 预制件摆放</p>
+      </header>
+
+      <section class="card">
+        <label class="lbl" for="prompt">描述你想要的房子，或上传一张参考图</label>
+        <textarea id="prompt" rows="2" maxlength="300">帮我建一栋三层的中式小别墅</textarea>
+        <div id="imgZone" class="img-zone" tabindex="0" title="点击选择、拖入或直接 Ctrl+V 粘贴图片">
+          <input id="imgInput" type="file" accept="image/png,image/jpeg,image/webp,image/gif,image/bmp" hidden />
+          <div id="imgEmpty" class="img-empty">
+            <b>＋ 参考图（可选）</b>
+            <span>点击选择 / 拖入 / Ctrl+V 粘贴；照片、效果图、手绘立面或平面图都可以</span>
+          </div>
+          <div id="imgPreview" class="img-preview" hidden>
+            <img id="imgThumb" alt="参考图" />
+            <div class="img-meta">
+              <span id="imgName"></span>
+              <span id="imgInfo" class="muted"></span>
+              <span class="muted">有图时文字可留空，或写补充要求</span>
+              <button id="imgClear" class="small" type="button">移除图片</button>
+            </div>
+          </div>
+        </div>
+        <div id="examples" class="chips"></div>
+        <div class="row">
+          <select id="model" title="选择模型"></select>
+          <button id="gen" class="primary">生成</button>
+          <button id="stop" class="danger" hidden>停止</button>
+        </div>
+        <div class="row">
+          <label class="rounds" for="maxRounds" title="第 1 轮生成，之后每轮把校验报错回传给模型修复；达到上限仍未通过则停止">
+            最大轮数
+            <input id="maxRounds" type="number" min="1" max="10" step="1" value="5" />
+          </label>
+          <span class="muted" id="roundsHint">1 轮生成 + 最多 4 轮修复</span>
+        </div>
+        <div class="row">
+          <button id="copyPrompt" class="small" title="不依赖云服务：复制提示词到任意聊天模型，再把 JSON 粘回来">复制提示词（手动模式）</button>
+          <span class="muted">模型连不上时用</span>
+        </div>
+        <div class="presets-row">
+          <span class="muted">预设示例（不调用模型，直接求解）</span>
+          <div id="presets" class="chips"></div>
+        </div>
+      </section>
+
+      <section class="card">
+        <ol id="steps"></ol>
+        <ul id="log"></ul>
+      </section>
+
+      <section class="card tabs">
+        <nav class="tab-bar">
+          <button class="tab-btn active" data-tab="tab-spec">设计参数</button>
+          <button class="tab-btn" data-tab="tab-place">摆放指令</button>
+          <button class="tab-btn" data-tab="tab-check">校验报告</button>
+          <button class="tab-btn" data-tab="tab-raw">模型原文</button>
+        </nav>
+        <div id="tab-spec" class="tab-pane active">
+          <p class="hint">第一层：模型只输出这份参数。可以直接改数字，点「重新求解」看效果，不消耗模型调用。</p>
+          <textarea id="specEditor" spellcheck="false"></textarea>
+          <div class="row">
+            <button id="resolve" class="primary small">按编辑后的参数重新求解</button>
+            <button id="dlSpec" class="small">下载</button>
+          </div>
+        </div>
+        <div id="tab-place" class="tab-pane">
+          <p class="hint">第二层：求解器推导出的预制件摆放清单，引擎直接读这一层。</p>
+          <table id="countTable"></table>
+          <p class="hint">每种预制件的第一条摆放指令：</p>
+          <pre id="placeSample" class="code"></pre>
+          <button id="dlPlace" class="small">下载完整摆放指令 JSON</button>
+        </div>
+        <div id="tab-check" class="tab-pane">
+          <div id="checkBox"></div>
+        </div>
+        <div id="tab-raw" class="tab-pane">
+          <p class="hint">最近一轮模型的原始输出（流式）。</p>
+          <pre id="raw" class="code"></pre>
+        </div>
+      </section>
+    </aside>
+    <div id="splitter" title="拖动调整左栏宽度"></div>
+    <main id="viewport">
+      <div id="canvasWrap"></div>
+      <div id="hud">
+        <div id="hudName"></div>
+        <div id="hudNotes"></div>
+        <div id="hudSource"></div>
+      </div>
+      <div id="toolbar">
+        <select id="floorLimit" title="剖切显示"></select>
+        <label class="tb-item">爆炸视图 <input id="explode" type="range" min="0" max="4" step="0.1" value="0" /></label>
+        <label class="tb-item"><input id="seams" type="checkbox" checked /> 显示预制件分缝</label>
+        <button id="resetView" class="small">重置视角</button>
+        <button id="showCatalog" class="small" title="显示 / 隐藏组件栏">组件栏</button>
+      </div>
+      <figure id="refFig" hidden><img id="refImg" alt="参考图" /><figcaption>参考图</figcaption></figure>
+      <div id="stats"></div>
+      <div id="legend"></div>
+      <div id="empty">输入一句话，或点击左侧「预设示例」开始</div>
+      <div id="partsDock" class="parts-dock">
+        <div class="dock-head" id="dockHead" title="拖动可移动位置">
+          <span class="dock-title">组件栏</span>
+          <span id="dockMeta" class="muted"></span>
+          <button id="dockToggle" class="dock-btn" title="收起 / 展开">▾</button>
+        </div>
+        <div class="dock-body" id="dockBody">
+          <div id="dockGrid" class="dock-grid"></div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script type="module" src="app.js?v=20261114e"></script>
+</body>
+</html>
