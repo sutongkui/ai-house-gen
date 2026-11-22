@@ -1,5 +1,5 @@
 // ============================================================================
-// app.js — UI、模型调用（WorkBuddy 云服务免密钥 LLM）、three.js 渲染
+// app.js — UI、模型代理调用、three.js 渲染
 // ============================================================================
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
@@ -26,6 +26,7 @@ function explainLLMError(e) {
   if (e && (e.name === 'AbortError' || /abort/i.test(e.message || ''))) return '已手动停止。';
   const code = (e && e.error && e.error.code) || '';
   const rid = e && e.requestId ? `（请求编号 ${e.requestId}）` : '';
+  if (code.startsWith('codex_')) return e.message;
   if (code.startsWith('auth_')) return `云服务鉴权失败：当前页面的来源域名与应用域名不一致。本地预览时常见，发布后在正式链接中即可正常调用；也可以先点「预设示例」体验求解与渲染。${rid}`;
   if (code === 'quota_rate_limited') return `调用太频繁，请 ${Math.ceil((e.retryAfterMs || 3000) / 1000)} 秒后再试。${rid}`;
   if (code.startsWith('quota_')) return `模型调用额度已用尽，请在 WorkBuddy 控制台查看额度。${rid}`;
@@ -347,14 +348,16 @@ async function loadModels() {
   try {
     const cfg = await fetch('/api/config').then((r) => r.json());
     const effortLabels = cfg.effort_labels || {};
-    const providers = cfg.models || [];
-    for (const p of providers) {
+    const imageModels = (cfg.models || []).filter((model) => model.supportsImages === true);
+    for (const p of imageModels) {
       modelMeta[p.id] = { id: p.id, name: p.label, supportsImages: p.supportsImages };
-      const o = el('option', '', `${p.label}  · ${effortLabels[p.effort] || p.effort}` + (p.supportsImages ? '' : '  · 无图'));
+      let availability = p.configured === false ? '  · 待配置 API key' : '';
+      if (p.transport === 'codex') availability = p.configured ? '  · Codex 额度' : '  · 待登录 Codex';
+      const o = el('option', '', `${p.label}  · ${effortLabels[p.effort] || p.effort}${availability}`);
       o.value = p.id;
       modelSel.appendChild(o);
     }
-    log(`已加载 ${providers.length} 个直连模型，思考档位已在列表中标注。`, 'ok');
+    log(`已加载 ${imageModels.length} 个模型，思考档位已在列表中标注。`, 'ok');
   } catch (e) {
     modelSel.appendChild(el('option', '', '模型配置加载失败'));
     genBtn.disabled = true;
@@ -379,7 +382,7 @@ $('copyPrompt').onclick = async () => {
   log(`已复制完整提示词（${full.length} 字）。粘贴到任意聊天模型${refImage ? '，并把参考图一起发给它' : ''}，把它返回的 JSON 粘到「设计参数」里再点重新求解。`, 'ok');
 };
 
-// —— 直连 LLM 调用（经本地 /api/llm 代理转发到混元/DeepSeek，规避 CORS）——
+// —— LLM 调用（经本地 /api/llm 代理转发到所选模型）——
 const modelMeta = {};
 const defaultEffort = () => undefined;   // 兼容 generate() 的调用；直连模型无需动态降档
 
@@ -1006,8 +1009,24 @@ log('已载入预设示例。输入一句话并点击「生成」即可调用模
 // —— 评测辅助：暴露给 puppeteer 做固定视角截图（45° 俯视，含立面+屋顶）——
 window.__houseGen = {
   fitView() { buildHouse(true); },
-  snapshot() {
+  snapshot(viewpoint) {
     buildHouse(true);
+    if (Number.isFinite(viewpoint?.elevation)) {
+      const target = controls.target;
+      const distance = camera.position.distanceTo(target);
+      const elevation = THREE.MathUtils.degToRad(viewpoint.elevation);
+      camera.position.set(target.x, Math.max(0.35, target.y + distance * Math.sin(elevation)), target.z + distance * Math.cos(elevation));
+      camera.lookAt(target);
+    } else if (viewpoint === 'front') {
+      const target = controls.target;
+      const distance = camera.position.distanceTo(target);
+      camera.position.set(target.x, target.y, target.z + distance);
+      controls.update();
+    } else if (viewpoint === 'rear') {
+      const target = controls.target;
+      camera.position.set(2 * target.x - camera.position.x, camera.position.y, 2 * target.z - camera.position.z);
+      controls.update();
+    }
     renderer.render(scene, camera);
     return renderer.domElement.toDataURL('image/png');
   },

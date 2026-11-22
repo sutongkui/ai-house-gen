@@ -27,7 +27,9 @@ python dev_server.py
 #    http://127.0.0.1:8765/index.html
 ```
 
-> 模型列表由后端 `/api/config` 下发，前端不感知 key。换模型只需改 `config.json` 一处。
+> 模型列表由后端 `/api/config` 下发，网页下拉框显示 `config.json` 中启用 `supportsImages` 的模型。API key 由服务端管理。
+
+Web 下拉框的 **GPT-6.2 Astra** 和 **GPT-6.2 Sol** 通过本机 Codex CLI 生成建筑，使用 ChatGPT 账号的 Codex 额度，两者均可使用参考图。已有配置请从 `config.example.json` 更新 `providers.openai`，然后重启本地服务。页面显示「待登录 Codex」时，确认启动服务的终端可以运行 `codex`，并通过 `codex login` 登录 ChatGPT。每次生成或修复请求会发起一次 Codex 调用。
 
 ## 目录结构
 
@@ -42,7 +44,7 @@ ai-house-gen/
 │   └── style.css
 ├── dev_server.py          # 本地服务（静态托管 + /api/llm 代理 + /api/config）
 ├── config.example.json    # 配置模板（复制为 config.json 并填 key）
-├── agent-eval-design.md   # 多模型评测方案设计（含真实建筑评测）
+├── agent-benchmark.md     # 文字和参考图评测方案
 └── README.md
 ```
 
@@ -92,7 +94,7 @@ ai-house-gen/
 
 ## 评测
 
-多模型评测的方案设计、评分规则、真实建筑特征 checklist、以及历次实测结果，见 **[agent-eval-design.md](agent-eval-design.md)**。核心结论：真实建筑「特征 checklist + 视觉还原度」双信号，是当前区分度最高的评测手段。
+文字与参考图评测的目标、评分规则和逐题验收标准见 [UGC 建筑生成 Agent 评测](agent-benchmark.md)。
 
 ## License
 

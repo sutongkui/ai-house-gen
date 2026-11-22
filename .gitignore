@@ -5,6 +5,7 @@ API_KEYS.md
 # 评测脚本与测试素材（内部工具，不对外分享）
 /.e2e/
 /test-images/
+/agent-benchmark-results/
 
 # 依赖
 node_modules/

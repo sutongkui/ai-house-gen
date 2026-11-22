@@ -15,6 +15,13 @@
         "deepseek-flash": { "label": "DeepSeek flash", "supportsImages": true, "effort": "low", "efforts": ["low", "high", "max"] },
         "deepseek-v4-pro": { "label": "DeepSeek v4-pro", "supportsImages": false, "effort": "low", "efforts": ["low", "high", "max"] }
       }
+    },
+    "openai": {
+      "transport": "codex",
+      "models": {
+        "gpt-6.2-astra": { "label": "GPT-6.2 Astra", "supportsImages": true, "effort": "high", "efforts": ["low", "medium", "high"] },
+        "gpt-6.2-sol": { "label": "GPT-6.2 Sol", "supportsImages": true, "effort": "high", "efforts": ["low", "medium", "high"] }
+      }
     }
   },
   "embedding": {
