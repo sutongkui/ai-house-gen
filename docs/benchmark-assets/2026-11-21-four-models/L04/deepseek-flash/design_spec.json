@@ -1,0 +1,83 @@
+{
+  "name": "泰姬陵主陵",
+  "style": "european",
+  "design_notes": "方形对称主体，四角小塔与中央大穹顶，白色大理石台基抬高三层，南面居中开巨大拱门，四面竖向拱窗均布",
+  "floor_height": 7,
+  "plinth": 3,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          36,
+          36
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 6
+        }
+      ],
+      "window": {
+        "width": 4,
+        "height": 5,
+        "sill": 1,
+        "gap": 4
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          6,
+          6,
+          24,
+          24
+        ],
+        [
+          0,
+          0,
+          8,
+          8
+        ],
+        [
+          28,
+          0,
+          8,
+          8
+        ],
+        [
+          0,
+          28,
+          8,
+          8
+        ],
+        [
+          28,
+          28,
+          8,
+          8
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 3
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "pyramid",
+    "pitch": 45,
+    "overhang": 1,
+    "curve": true
+  },
+  "columns": null
+}

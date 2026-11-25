@@ -1,0 +1,67 @@
+{
+  "task": "T03",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 3736,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1835,
+        "completion_tokens": 501,
+        "total_tokens": 2336,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 334
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 171
+      },
+      "raw": "{\"name\":\"L形欧式单层住宅\",\"style\":\"european\",\"design_notes\":\"L形平面由主体与东侧翼相接而成，东翼东墙居中设入户门，配竖向长窗、台基与坡度40度双坡屋顶\",\"floor_height\":7,\"plinth\":1,\"floors\":[{\"blocks\":[[0,0,26,20],[26,6,10,14]],\"doors\":[{\"block\":1,\"side\":\"E\",\"at\":0.5,\"width\":4}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":3},\"eave\":false}],\"roof\":{\"type\":\"gable\",\"pitch\":40,\"overhang\":2,\"curve\":false},\"columns\":null}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "欧式",
+      "hit": true
+    },
+    {
+      "name": "单层",
+      "hit": true
+    },
+    {
+      "name": "L 形",
+      "hit": true
+    },
+    {
+      "name": "双坡顶",
+      "hit": true
+    },
+    {
+      "name": "东侧入户",
+      "hit": true
+    }
+  ],
+  "durationMs": 3736,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 18,
+    "depth": 10,
+    "height": 8.195,
+    "area": 165,
+    "prefabTotal": 229,
+    "windows": 15,
+    "doors": 1
+  }
+}

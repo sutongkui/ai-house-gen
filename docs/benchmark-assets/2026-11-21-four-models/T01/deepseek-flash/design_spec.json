@@ -1,0 +1,66 @@
+{
+  "name": "两层现代住宅",
+  "style": "modern",
+  "design_notes": "一层30×20矩形，南面居中入户；二层北退6格，南侧留3m深露台，平屋顶大横窗",
+  "floor_height": 6,
+  "plinth": 0,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          30,
+          20
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.35,
+          "width": 4
+        }
+      ],
+      "window": {
+        "width": 6,
+        "height": 4,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          30,
+          14
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 4
+        }
+      ],
+      "window": {
+        "width": 6,
+        "height": 4,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "flat",
+    "pitch": 0,
+    "overhang": 0,
+    "curve": false
+  },
+  "columns": null
+}

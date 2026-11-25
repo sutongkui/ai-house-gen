@@ -1,0 +1,17 @@
+{
+  "id": "D",
+  "seen": {
+    "literal": "单层围合，中央露天院较紧凑，深灰坡顶微翘檐，南立面四扇格窗",
+    "subject": "四合院式建筑",
+    "usage": "可能用于居住",
+    "style": "中式传统院落风格",
+    "scene": "浅色网格地面上的独立建筑模型"
+  },
+  "beauty": {
+    "proportion": 4,
+    "facade_rhythm": 4,
+    "roof_harmony": 4,
+    "style_coherence": 5
+  },
+  "reason": "南立面四扇格窗大小一致，斜俯视可见宽屋面围绕较紧凑的庭院展开。"
+}

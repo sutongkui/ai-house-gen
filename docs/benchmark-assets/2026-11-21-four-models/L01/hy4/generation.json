@@ -1,0 +1,59 @@
+{
+  "task": "L01",
+  "model": "hy4",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 3315,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1796,
+        "completion_tokens": 258,
+        "total_tokens": 2054
+      },
+      "raw": "{\"name\":\"太和殿主体\",\"style\":\"chinese\",\"design_notes\":\"重檐庑殿式意向，五开间放大为十一开间，南北中轴，南廊柱与高台基体现殿身等级\",\"floor_height\":8,\"plinth\":3,\"floors\":[{\"blocks\":[[0,0,76,34]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":6},{\"block\":0,\"side\":\"N\",\"at\":0.5,\"width\":4},{\"block\":0,\"side\":\"E\",\"at\":0.5,\"width\":4},{\"block\":0,\"side\":\"W\",\"at\":0.5,\"width\":4}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[4,3,68,28]],\"doors\":[],\"window\":{\"width\":3,\"height\":3,\"sill\":3,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"hip\",\"pitch\":30,\"overhang\":3,\"curve\":true},\"columns\":{\"side\":\"S\",\"spacing\":7,\"offset\":4}}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "中式",
+      "hit": true
+    },
+    {
+      "name": "宽横向殿身",
+      "hit": true
+    },
+    {
+      "name": "台基",
+      "hit": true
+    },
+    {
+      "name": "中轴对称",
+      "hit": true
+    },
+    {
+      "name": "四坡主顶",
+      "hit": true
+    }
+  ],
+  "durationMs": 3315,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 38,
+    "depth": 17,
+    "height": 13.541,
+    "area": 1122,
+    "prefabTotal": 1612,
+    "windows": 56,
+    "doors": 4
+  }
+}

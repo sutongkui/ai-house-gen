@@ -1,0 +1,57 @@
+{
+  "task": "T04",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 10854,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 13750
+      },
+      "raw": "{\n  \"name\": \"北欧无窗小屋\",\n  \"style\": \"nordic\",\n  \"design_notes\": \"单层矩形平面，北墙中央设门，四面无窗，双坡屋顶采用45度坡角和短出檐。\",\n  \"floor_height\": 6,\n  \"plinth\": 1,\n  \"floors\": [\n    {\n      \"blocks\": [[0, 0, 20, 14]],\n      \"doors\": [{\"block\": 0, \"side\": \"N\", \"at\": 0.5, \"width\": 2}],\n      \"window\": \"none\",\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\": \"gable\", \"pitch\": 45, \"overhang\": 1, \"curve\": false},\n  \"columns\": null\n}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "北欧",
+      "hit": true
+    },
+    {
+      "name": "单层矩形",
+      "hit": true
+    },
+    {
+      "name": "双坡顶",
+      "hit": true
+    },
+    {
+      "name": "北侧入户",
+      "hit": true
+    },
+    {
+      "name": "全楼无窗",
+      "hit": true
+    }
+  ],
+  "durationMs": 10854,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 10,
+    "depth": 7,
+    "height": 7,
+    "area": 70,
+    "prefabTotal": 97,
+    "windows": 0,
+    "doors": 1
+  }
+}

@@ -1,0 +1,3890 @@
+{
+  "grid": 0.5,
+  "units": "meter",
+  "style": "japanese",
+  "placements": [
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -7,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -5,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -4,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -3,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -2,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -1,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        0,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        1,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        2,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        3,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        4,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        5,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        7,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        8,
+        0.5,
+        -6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -7,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -5,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -4,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -3,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -2,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -1,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        0,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        1,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        2,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        3,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        4,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        5,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        7,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        8,
+        0.5,
+        -5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -7,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -5,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -4,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -3,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -2,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -1,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        0,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        1,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        2,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        3,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        4,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        5,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        7,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        8,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -7,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -5,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -4,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -3,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -2,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -1,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        0,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        1,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        2,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        3,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        4,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        5,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        7,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        8,
+        0.5,
+        -3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        -2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -7,
+        0.5,
+        -2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        -2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -5,
+        0.5,
+        -2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        5,
+        0.5,
+        -2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        -2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        7,
+        0.5,
+        -2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        8,
+        0.5,
+        -2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        -1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -7,
+        0.5,
+        -1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        -1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -5,
+        0.5,
+        -1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        5,
+        0.5,
+        -1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        -1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        7,
+        0.5,
+        -1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        8,
+        0.5,
+        -1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        0
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -7,
+        0.5,
+        0
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        0
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -5,
+        0.5,
+        0
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        5,
+        0.5,
+        0
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        0
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        7,
+        0.5,
+        0
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        8,
+        0.5,
+        0
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -7,
+        0.5,
+        1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -5,
+        0.5,
+        1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        5,
+        0.5,
+        1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        7,
+        0.5,
+        1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        8,
+        0.5,
+        1
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -7,
+        0.5,
+        2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -5,
+        0.5,
+        2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        5,
+        0.5,
+        2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        7,
+        0.5,
+        2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        8,
+        0.5,
+        2
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -7,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -5,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -4,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -3,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -2,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -1,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        0,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        1,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        2,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        3,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        4,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        5,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        7,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        8,
+        0.5,
+        3
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -7,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -5,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -4,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -3,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -2,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -1,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        0,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        1,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        2,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        3,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        4,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        5,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        7,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        8,
+        0.5,
+        4
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -7,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -5,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -4,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -3,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -2,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -1,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        0,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        1,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        2,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        3,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        4,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        5,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        7,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        8,
+        0.5,
+        5
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -7,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -5,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -4,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -3,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -2,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        -1,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        0,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        1,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        2,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        3,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        4,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        5,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        7,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "floor_tile_1m",
+      "cat": "floor",
+      "floor": 0,
+      "pos": [
+        8,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "size": 1
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        -6.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -7.25,
+        0.5,
+        -6.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        -6.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_2m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -4,
+        0.5,
+        -6.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "len": 2,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        -2,
+        0.5,
+        -6.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_2m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        0,
+        0.5,
+        -6.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "len": 2,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        2,
+        0.5,
+        -6.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_2m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        4,
+        0.5,
+        -6.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "len": 2,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        -6.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        7.5,
+        0.5,
+        -6.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        8.25,
+        0.5,
+        -6.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -4,
+        0.5,
+        2.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -3.25,
+        0.5,
+        2.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        -2,
+        0.5,
+        2.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_2m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        0,
+        0.5,
+        2.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "len": 2,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        2,
+        0.5,
+        2.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        3.5,
+        0.5,
+        2.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        4.25,
+        0.5,
+        2.5
+      ],
+      "rot": 3.141592653589793,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -4,
+        0.5,
+        -2.5
+      ],
+      "rot": 0,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -3.25,
+        0.5,
+        -2.5
+      ],
+      "rot": 0,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        -2,
+        0.5,
+        -2.5
+      ],
+      "rot": 0,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_2m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        0,
+        0.5,
+        -2.5
+      ],
+      "rot": 0,
+      "params": {
+        "len": 2,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        2,
+        0.5,
+        -2.5
+      ],
+      "rot": 0,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        3.5,
+        0.5,
+        -2.5
+      ],
+      "rot": 0,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        4.25,
+        0.5,
+        -2.5
+      ],
+      "rot": 0,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -8,
+        0.5,
+        6.5
+      ],
+      "rot": 0,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -7.25,
+        0.5,
+        6.5
+      ],
+      "rot": 0,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        -6,
+        0.5,
+        6.5
+      ],
+      "rot": 0,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_2m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -4,
+        0.5,
+        6.5
+      ],
+      "rot": 0,
+      "params": {
+        "len": 2,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        -2,
+        0.5,
+        6.5
+      ],
+      "rot": 0,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_2m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        0,
+        0.5,
+        6.5
+      ],
+      "rot": 0,
+      "params": {
+        "len": 2,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        2,
+        0.5,
+        6.5
+      ],
+      "rot": 0,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_2m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        4,
+        0.5,
+        6.5
+      ],
+      "rot": 0,
+      "params": {
+        "len": 2,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        6,
+        0.5,
+        6.5
+      ],
+      "rot": 0,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        7.5,
+        0.5,
+        6.5
+      ],
+      "rot": 0,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        8.25,
+        0.5,
+        6.5
+      ],
+      "rot": 0,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        8.5,
+        0.5,
+        -6
+      ],
+      "rot": 1.5707963267948966,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        8.5,
+        0.5,
+        -5.25
+      ],
+      "rot": 1.5707963267948966,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        8.5,
+        0.5,
+        -4
+      ],
+      "rot": 1.5707963267948966,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_2m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        8.5,
+        0.5,
+        -2
+      ],
+      "rot": 1.5707963267948966,
+      "params": {
+        "len": 2,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        8.5,
+        0.5,
+        0
+      ],
+      "rot": 1.5707963267948966,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_2m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        8.5,
+        0.5,
+        2
+      ],
+      "rot": 1.5707963267948966,
+      "params": {
+        "len": 2,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        8.5,
+        0.5,
+        4
+      ],
+      "rot": 1.5707963267948966,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        8.5,
+        0.5,
+        5.5
+      ],
+      "rot": 1.5707963267948966,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        8.5,
+        0.5,
+        6.25
+      ],
+      "rot": 1.5707963267948966,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -4.5,
+        0.5,
+        -2
+      ],
+      "rot": 1.5707963267948966,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -4.5,
+        0.5,
+        -1.25
+      ],
+      "rot": 1.5707963267948966,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        -4.5,
+        0.5,
+        0
+      ],
+      "rot": 1.5707963267948966,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -4.5,
+        0.5,
+        1.5
+      ],
+      "rot": 1.5707963267948966,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -4.5,
+        0.5,
+        2.25
+      ],
+      "rot": 1.5707963267948966,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -8.5,
+        0.5,
+        -6
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -8.5,
+        0.5,
+        -5.25
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        -8.5,
+        0.5,
+        -4
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_2m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -8.5,
+        0.5,
+        -2
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "len": 2,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -8.5,
+        0.5,
+        -0.75
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "door_1.5m",
+      "cat": "door",
+      "floor": 0,
+      "pos": [
+        -8.5,
+        0.5,
+        0.25
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "w": 1.5,
+        "h": 3,
+        "doorH": 2.2
+      }
+    },
+    {
+      "prefab": "wall_2m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -8.5,
+        0.5,
+        2
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "len": 2,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        -8.5,
+        0.5,
+        4
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -8.5,
+        0.5,
+        5.5
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        -8.5,
+        0.5,
+        6.25
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        4.5,
+        0.5,
+        -2
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        4.5,
+        0.5,
+        -1.25
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "window_2m",
+      "cat": "window",
+      "floor": 0,
+      "pos": [
+        4.5,
+        0.5,
+        0
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "w": 2,
+        "h": 3,
+        "sill": 0.5,
+        "winH": 1.5
+      }
+    },
+    {
+      "prefab": "wall_1m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        4.5,
+        0.5,
+        1.5
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "len": 1,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "wall_0.5m",
+      "cat": "wall",
+      "floor": 0,
+      "pos": [
+        4.5,
+        0.5,
+        2.25
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "len": 0.5,
+        "h": 3
+      }
+    },
+    {
+      "prefab": "corner_post",
+      "cat": "post",
+      "floor": 0,
+      "pos": [
+        -8.5,
+        0.5,
+        -6.5
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "corner_post",
+      "cat": "post",
+      "floor": 0,
+      "pos": [
+        8.5,
+        0.5,
+        -6.5
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "corner_post",
+      "cat": "post",
+      "floor": 0,
+      "pos": [
+        -4.5,
+        0.5,
+        2.5
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "corner_post",
+      "cat": "post",
+      "floor": 0,
+      "pos": [
+        4.5,
+        0.5,
+        2.5
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "corner_post",
+      "cat": "post",
+      "floor": 0,
+      "pos": [
+        -4.5,
+        0.5,
+        -2.5
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "corner_post",
+      "cat": "post",
+      "floor": 0,
+      "pos": [
+        4.5,
+        0.5,
+        -2.5
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "corner_post",
+      "cat": "post",
+      "floor": 0,
+      "pos": [
+        -8.5,
+        0.5,
+        6.5
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "corner_post",
+      "cat": "post",
+      "floor": 0,
+      "pos": [
+        8.5,
+        0.5,
+        6.5
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "plinth",
+      "cat": "plinth",
+      "floor": 0,
+      "pos": [
+        -0.75,
+        0,
+        -4.5
+      ],
+      "rot": 0,
+      "params": {
+        "w": 19.5,
+        "d": 5,
+        "h": 0.5
+      }
+    },
+    {
+      "prefab": "plinth",
+      "cat": "plinth",
+      "floor": 0,
+      "pos": [
+        -7.25,
+        0,
+        2.5
+      ],
+      "rot": 0,
+      "params": {
+        "w": 6.5,
+        "d": 9,
+        "h": 0.5
+      }
+    },
+    {
+      "prefab": "plinth",
+      "cat": "plinth",
+      "floor": 0,
+      "pos": [
+        5.75,
+        0,
+        2.5
+      ],
+      "rot": 0,
+      "params": {
+        "w": 6.5,
+        "d": 9,
+        "h": 0.5
+      }
+    },
+    {
+      "prefab": "plinth",
+      "cat": "plinth",
+      "floor": 0,
+      "pos": [
+        -0.75,
+        0,
+        4.5
+      ],
+      "rot": 0,
+      "params": {
+        "w": 6.5,
+        "d": 5,
+        "h": 0.5
+      }
+    },
+    {
+      "prefab": "steps",
+      "cat": "steps",
+      "floor": 0,
+      "pos": [
+        -10.5,
+        0,
+        0.25
+      ],
+      "rot": -1.5707963267948966,
+      "params": {
+        "w": 1.9,
+        "h": 0.5,
+        "n": 3,
+        "tread": 0.3
+      }
+    },
+    {
+      "prefab": "column",
+      "cat": "column",
+      "floor": 0,
+      "pos": [
+        -10,
+        0.5,
+        -6.5
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "column",
+      "cat": "column",
+      "floor": 0,
+      "pos": [
+        -10,
+        0.5,
+        -4
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "column",
+      "cat": "column",
+      "floor": 0,
+      "pos": [
+        -10,
+        0.5,
+        -1.5
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "column",
+      "cat": "column",
+      "floor": 0,
+      "pos": [
+        -10,
+        0.5,
+        1
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "column",
+      "cat": "column",
+      "floor": 0,
+      "pos": [
+        -10,
+        0.5,
+        3.5
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "column",
+      "cat": "column",
+      "floor": 0,
+      "pos": [
+        -10,
+        0.5,
+        6
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "column",
+      "cat": "column",
+      "floor": 0,
+      "pos": [
+        -10,
+        0.5,
+        6.5
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "column",
+      "cat": "column",
+      "floor": 0,
+      "pos": [
+        3,
+        0.5,
+        -2.5
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "column",
+      "cat": "column",
+      "floor": 0,
+      "pos": [
+        3,
+        0.5,
+        0
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "column",
+      "cat": "column",
+      "floor": 0,
+      "pos": [
+        3,
+        0.5,
+        2.5
+      ],
+      "rot": 0,
+      "params": {
+        "h": 3
+      }
+    },
+    {
+      "prefab": "roof_hip",
+      "cat": "roof",
+      "floor": 1,
+      "pos": [
+        0,
+        3.5,
+        -4.5
+      ],
+      "rot": 0,
+      "params": {
+        "Lx": 17,
+        "Lz": 4,
+        "pitch": 27,
+        "overhang": 1.5,
+        "curve": true
+      }
+    },
+    {
+      "prefab": "roof_hip",
+      "cat": "roof",
+      "floor": 1,
+      "pos": [
+        -6.5,
+        3.5,
+        0
+      ],
+      "rot": 0,
+      "params": {
+        "Lx": 4,
+        "Lz": 5,
+        "pitch": 27,
+        "overhang": 1.5,
+        "curve": true
+      }
+    },
+    {
+      "prefab": "roof_hip",
+      "cat": "roof",
+      "floor": 1,
+      "pos": [
+        6.5,
+        3.5,
+        0
+      ],
+      "rot": 0,
+      "params": {
+        "Lx": 4,
+        "Lz": 5,
+        "pitch": 27,
+        "overhang": 1.5,
+        "curve": true
+      }
+    },
+    {
+      "prefab": "roof_hip",
+      "cat": "roof",
+      "floor": 1,
+      "pos": [
+        0,
+        3.5,
+        4.5
+      ],
+      "rot": 0,
+      "params": {
+        "Lx": 17,
+        "Lz": 4,
+        "pitch": 27,
+        "overhang": 1.5,
+        "curve": true
+      }
+    }
+  ]
+}

@@ -15,21 +15,18 @@
 
 ## 快速开始
 
-```bash
-# 1. 配置模型 key（模板 config.example.json 已提供）
-cp config.example.json config.json
-# 编辑 config.json，填入你的混元 / DeepSeek / embedding 的 key
+在仓库根目录打开 Windows PowerShell。安装 Python 3 后，复制配置模板并启动本地服务。
 
-# 2. 启动本地服务（静态托管 + LLM 代理）
-python dev_server.py
-
-# 3. 打开浏览器
-#    http://127.0.0.1:8765/index.html
+```powershell
+if (-not (Test-Path -LiteralPath 'config.json')) {
+    Copy-Item -LiteralPath 'config.example.json' -Destination 'config.json'
+}
+py -3 dev_server.py
 ```
 
-> 模型列表由后端 `/api/config` 下发，网页下拉框显示 `config.json` 中启用 `supportsImages` 的模型。API key 由服务端管理。
+保持终端运行，打开 [本地网页](http://127.0.0.1:8765/index.html)。点击「预设示例」即可查看 3D 建筑，也可以在「设计参数」中修改 JSON 后重新求解。演示这两项无需填模型 key。浏览器需能访问 `cdn.jsdelivr.net` 来加载 Three.js。
 
-Web 下拉框的 **GPT-6.2 Astra** 和 **GPT-6.2 Sol** 通过本机 Codex CLI 生成建筑，使用 ChatGPT 账号的 Codex 额度，两者均可使用参考图。已有配置请从 `config.example.json` 更新 `providers.openai`，然后重启本地服务。页面显示「待登录 Codex」时，确认启动服务的终端可以运行 `codex`，并通过 `codex login` 登录 ChatGPT。每次生成或修复请求会发起一次 Codex 调用。
+使用一句话或参考图调用模型时，按下方的配置表启用对应通道。修改 `config.json` 后重启本地服务。
 
 ## 目录结构
 
@@ -73,28 +70,70 @@ ai-house-gen/
 
 ## 配置说明
 
-`config.json`（由 `config.example.json` 复制而来）结构：
+接收方用 [配置模板](config.example.json) 创建自己的 `config.json`，从准备使用的通道开始配置。完整四模型评测需要下表四项。
 
-```jsonc
-{
-  "providers": {
-    "hunyuan": {
-      "chat_url": "https://tokenlink.woa.com/openapi/v1/chat/completions",
-      "api_key": "你的混元 key",
-      "models": { "hy4": { "label": "混元 hy4", "effort": "no_think", ... } }
-    },
-    "deepseek": { "chat_url": "...", "api_key": "...", "models": { ... } }
-  },
-  "embedding": { "url": "...", "api_key": "...", "model": "hunyuan-embedding-20250716" }
-}
+| 用途 | 配置 |
+|---|---|
+| 混元 HY4、HY4 Flash | 填 `providers.hunyuan.api_key`，并确认可以访问 `providers.hunyuan.chat_url`。 |
+| DeepSeek Flash | 填 `providers.deepseek.api_key`，并确认账号可调用模板中的模型。 |
+| GPT‑6.2 Astra 生成、GPT‑6.2 Sol 裁判 | 安装 Codex CLI，确保启动服务和跑测的终端都可执行 `codex`。用 `codex login` 登录自己的 ChatGPT 账号，再用 `codex login status` 检查登录。账号需有权调用 Astra 和 Sol。这一通道使用 Codex 额度。 [Codex CLI 安装](https://learn.chatgpt.com/docs/cli) · [登录说明](https://learn.chatgpt.com/docs/auth?surface=cli) |
+| 评测的文字贴合度 | 填 `embedding.api_key`，确认可以访问 `embedding.url`。复测使用模板里的 `hunyuan-embedding-20250716`。 |
+
+混元生成和 embedding 默认使用 `woa.com` 内部地址，接收方需要具备相应网络访问和服务权限。暂不启用的 API key 可以填空字符串。分享时发仓库代码和 `config.example.json`，接收方自行填写密钥并登录。`config.json`、`API_KEYS.md` 和 Codex 登录凭据留在本机。
+
+### 单独调用混元 HY4
+
+通过项目网页调用时，把获授权的 TokenLink Key 填入本机 `config.json` 的 `providers.hunyuan.api_key`，启动 `py -3 dev_server.py` 后选择「混元 hy4」。网页把 `model` 和 `messages` 发送给本地 `POST /api/llm`，由服务端加 Bearer 认证转发。
+
+在其他程序里可直接调用 TokenLink 的 Chat Completions 接口。下面的 PowerShell 示例会交互读取 Key，并用一条短消息测试连接。
+
+```powershell
+$hy4Credential = Read-Host 'TokenLink HY4 API key' -AsSecureString
+$hy4Key = ([System.Net.NetworkCredential]::new('', $hy4Credential)).Password
+$hy4Body = @{
+    model = 'hy4'
+    messages = @(@{ role = 'user'; content = 'Reply with OK only.' })
+    stream = $false
+    reasoning_effort = 'no_think'
+} | ConvertTo-Json -Depth 5
+
+$hy4Result = Invoke-RestMethod -Method Post `
+    -Uri 'https://tokenlink.woa.com/openapi/v1/chat/completions' `
+    -Headers @{ Authorization = "Bearer $hy4Key" } `
+    -ContentType 'application/json; charset=utf-8' -Body $hy4Body
+$hy4Result.choices[0].message.content
 ```
 
-- `effort` 为思考档位（混元 `no_think`/`high`，DeepSeek `low`/`high`/`max`），已统一取最快档。
-- **安全**：`config.json` 已被 `.gitignore` 忽略，切勿提交到仓库或外发。
+要让 HY4 输出项目可用的建筑设计 JSON，在 `messages` 中加入项目的 `SYSTEM_PROMPT`。参考图随用户消息的 `image_url` 传入。 [生成提示词和消息构造](house-gen-demo/prompt.js)
 
 ## 评测
 
 文字与参考图评测的目标、评分规则和逐题验收标准见 [UGC 建筑生成 Agent 评测](agent-benchmark.md)。
+
+### 准备环境
+
+保持本地网页服务运行。在另一个 PowerShell 中进入仓库根目录，准备 **Node.js 24（含 npm）、可运行 `py -3` 的 Python 3、Google Chrome**，并完成上面的四项模型配置。模型 ID、`supportsImages` 和默认思考档沿用模板，评测脚本会在生成前检查。安装截图依赖。
+
+```powershell
+New-Item -ItemType Directory -Path '.e2e' -Force | Out-Null
+npm.cmd install --prefix .e2e --no-save puppeteer-core@23.11.1
+```
+
+Chrome 安装在 `C:\Program Files\Google\Chrome\Application\chrome.exe` 时可直接运行。安装在其他位置时，先将 `$env:AGENT_BENCHMARK_CHROME` 设为本机的 `chrome.exe` 完整路径。五张标准化参考图随仓库放在 `Image-Test/normalized/`。
+
+### 跑一轮并查看分数
+
+```powershell
+$env:AGENT_BENCHMARK_RUN = Get-Date -Format 'yyyy-MM-dd-HHmmss'
+foreach ($stage in @('generate', 'retry-transport', 'render', 'judge', 'score', 'report')) {
+    node scripts/agent-benchmark.mjs $stage
+    if ($LASTEXITCODE -ne 0) { throw "评测阶段 $stage 执行失败" }
+}
+```
+
+脚本让四款模型各跑 10 道文字题和 5 道参考图题，共 60 个任务。六个阶段分别负责生成、复试瞬时服务错误、截图、Sol 盲评、计算分数和写报告。中断或个别评分待补时，设置原来的 `AGENT_BENCHMARK_RUN`，从失败阶段继续，同一批次复用已有产物和评分。
+
+新跑的结果保存在 `agent-benchmark-results/<批次号>/`。`report.md` 包含排名、逐题状态和产物链接，`summary.json` 包含每款模型的分项和总分。这个运行目录由 Git 忽略。评测文档引用的已归档报告和产物在 `docs/benchmark-assets/`，随仓库一起分发。 [四模型逐题报告](docs/benchmark-assets/2026-11-21-four-models/report.md)
 
 ## License
 

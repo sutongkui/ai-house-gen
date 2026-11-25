@@ -1,0 +1,17 @@
+{
+  "id": "C",
+  "seen": {
+    "literal": "单层院落，深灰坡顶，南立面四扇格窗，西侧一排木柱外露",
+    "subject": "四合院式建筑",
+    "usage": "可能用于居住",
+    "style": "中式传统院落风格",
+    "scene": "浅色网格地面上的独立建筑模型"
+  },
+  "beauty": {
+    "proportion": 3,
+    "facade_rhythm": 3,
+    "roof_harmony": 3,
+    "style_coherence": 4
+  },
+  "reason": "南立面四窗排列规整，西侧外露柱列使立面节奏偏向一端，部分柱顶高出檐线。"
+}

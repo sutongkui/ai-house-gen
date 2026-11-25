@@ -1,0 +1,41 @@
+{
+  "task": "M02",
+  "model": "hy4",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 4801,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 3482,
+        "completion_tokens": 360,
+        "total_tokens": 3842,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        }
+      },
+      "raw": "{\"name\":\"比萨斜塔式圆塔\",\"style\":\"european\",\"design_notes\":\"读图为六层欧式塔楼，逐层微退台，连续拱窗与环腰檐，顶部平塔冠\",\"floor_height\":6,\"plinth\":1,\"floors\":[{\"blocks\":[[0,0,24,24]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":3}],\"window\":{\"width\":3,\"height\":4,\"sill\":1,\"gap\":2},\"eave\":true},{\"blocks\":[[1,1,22,22]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":1,\"gap\":2},\"eave\":true},{\"blocks\":[[2,2,20,20]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":1,\"gap\":2},\"eave\":true},{\"blocks\":[[3,3,18,18]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":1,\"gap\":2},\"eave\":true},{\"blocks\":[[4,4,16,16]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":1,\"gap\":2},\"eave\":true},{\"blocks\":[[5,5,14,14]],\"doors\":[],\"window\":{\"width\":3,\"height\":3,\"sill\":2,\"gap\":2},\"eave\":false}],\"roof\":{\"type\":\"flat\",\"pitch\":0,\"overhang\":2,\"curve\":false},\"columns\":null}"
+    }
+  ],
+  "status": "待评分",
+  "checks": [],
+  "durationMs": 4801,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 12,
+    "depth": 12,
+    "height": 19.4,
+    "area": 559,
+    "prefabTotal": 1297,
+    "windows": 78,
+    "doors": 1
+  }
+}

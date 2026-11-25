@@ -1,0 +1,83 @@
+{
+  "name": "泰姬陵主体简化",
+  "style": "european",
+  "design_notes": "读为对称穹顶陵庙：中央高大体块、四角小亭，南面中央大拱门与竖向窗。",
+  "floor_height": 8,
+  "plinth": 2,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          40,
+          28
+        ],
+        [
+          2,
+          2,
+          10,
+          8
+        ],
+        [
+          28,
+          2,
+          10,
+          8
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 6
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 5,
+        "sill": 2,
+        "gap": 6
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          6,
+          4,
+          28,
+          20
+        ],
+        [
+          2,
+          2,
+          10,
+          8
+        ],
+        [
+          28,
+          2,
+          10,
+          8
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 5
+      },
+      "eave": true
+    }
+  ],
+  "roof": {
+    "type": "hip",
+    "pitch": 35,
+    "overhang": 3,
+    "curve": false
+  },
+  "columns": null
+}

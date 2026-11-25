@@ -1,0 +1,17 @@
+{
+  "id": "C",
+  "seen": {
+    "literal": "单层矩形体块，深灰双坡屋顶，南面六块浅色墙板，木色基座",
+    "subject": "单层坡顶小屋",
+    "usage": "",
+    "style": "简约乡居风",
+    "scene": "浅色网格地面上的建筑模型"
+  },
+  "beauty": {
+    "proportion": 4,
+    "facade_rhythm": 3,
+    "roof_harmony": 4,
+    "style_coherence": 4
+  },
+  "reason": "两张图呈现的屋面轮廓、墙板分缝和基座比例均与A一致。"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "A",
+  "landmark": {
+    "silhouette": 2,
+    "massing": 2,
+    "roof": 1,
+    "facade": 2,
+    "signature": 2
+  },
+  "reason": "殿身横阔，两层体量居中叠置，抬高的台基设中央踏步。两层格窗成列对称，上部四坡顶清晰，下檐偏浅，形似披檐。"
+}

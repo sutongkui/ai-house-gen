@@ -152,7 +152,7 @@ Sol 对比同题的匿名产物截图，衡量体块比例、门窗节奏、屋�
 
 ## 6. 本轮实测结果
 
-运行批次为 `2026-11-21-four-models`，15 道题 × 四款生成模型，共 60 个任务。 [冻结题目与配置](agent-benchmark-results/2026-11-21-four-models/configuration.json)
+运行批次为 `2026-11-21-four-models`，15 道题 × 四款生成模型，共 60 个任务。 [冻结题目与配置](docs/benchmark-assets/2026-11-21-four-models/configuration.json)
 
 ### 6.1 任务状态与产物
 
@@ -163,14 +163,14 @@ Sol 对比同题的匿名产物截图，衡量体块比例、门窗节奏、屋�
 | 混元 HY4 | 8／2／0 | 2／3／0 | 12/15 | 3.93 秒 |
 | 混元 HY4 Flash | 9／1／0 | 2／3／0 | 15/15 | 2.74 秒 |
 
-共 **45 项成功、15 项部分完成**。60 项均有可渲染产物。HY4 Flash 的 T04 遇到一次瞬时代理错误，按同一配置复试一次后完成，两次记录均已保存。 [60 项逐题状态、失分依据和产物](agent-benchmark-results/2026-11-21-four-models/report.md)
+共 **45 项成功、15 项部分完成**。60 项均有可渲染产物。HY4 Flash 的 T04 遇到一次瞬时代理错误，按同一配置复试一次后完成，两次记录均已保存。 [60 项逐题状态、失分依据和产物](docs/benchmark-assets/2026-11-21-four-models/report.md)
 
-下表展示同题产物。T01 输入为两层现代退台住宅的文字要求，M03 输入为黄鹤楼参考图。 [M03 参考图](agent-benchmark-results/2026-11-21-four-models/M03/reference.jpg)
+下表展示同题产物。T01 输入为两层现代退台住宅的文字要求，M03 输入为黄鹤楼参考图。 [M03 参考图](Image-Test/normalized/Huanghelou.jpg)
 
 | 用例 | GPT‑6.2 Astra | DeepSeek Flash | 混元 HY4 | 混元 HY4 Flash |
 |---|---|---|---|---|
-| T01 退台住宅 | ![Astra 的 T01](agent-benchmark-results/2026-11-21-four-models/T01/gpt-6.2-astra/oblique.png) | ![DeepSeek Flash 的 T01](agent-benchmark-results/2026-11-21-four-models/T01/deepseek-flash/oblique.png) | ![HY4 的 T01](agent-benchmark-results/2026-11-21-four-models/T01/hy4/oblique.png) | ![HY4 Flash 的 T01](agent-benchmark-results/2026-11-21-four-models/T01/hy4-flash/oblique.png) |
-| M03 黄鹤楼 | ![Astra 的 M03](agent-benchmark-results/2026-11-21-four-models/M03/gpt-6.2-astra/front.png) | ![DeepSeek Flash 的 M03](agent-benchmark-results/2026-11-21-four-models/M03/deepseek-flash/front.png) | ![HY4 的 M03](agent-benchmark-results/2026-11-21-four-models/M03/hy4/front.png) | ![HY4 Flash 的 M03](agent-benchmark-results/2026-11-21-four-models/M03/hy4-flash/front.png) |
+| T01 退台住宅 | [![Astra 的 T01](docs/benchmark-assets/2026-11-21-four-models/T01-gpt-6.2-astra.png)](docs/benchmark-assets/2026-11-21-four-models/T01-gpt-6.2-astra.png) | [![DeepSeek Flash 的 T01](docs/benchmark-assets/2026-11-21-four-models/T01-deepseek-flash.png)](docs/benchmark-assets/2026-11-21-four-models/T01-deepseek-flash.png) | [![HY4 的 T01](docs/benchmark-assets/2026-11-21-four-models/T01-hy4.png)](docs/benchmark-assets/2026-11-21-four-models/T01-hy4.png) | [![HY4 Flash 的 T01](docs/benchmark-assets/2026-11-21-four-models/T01-hy4-flash.png)](docs/benchmark-assets/2026-11-21-four-models/T01-hy4-flash.png) |
+| M03 黄鹤楼 | [![Astra 的 M03](docs/benchmark-assets/2026-11-21-four-models/M03-gpt-6.2-astra.png)](docs/benchmark-assets/2026-11-21-four-models/M03-gpt-6.2-astra.png) | [![DeepSeek Flash 的 M03](docs/benchmark-assets/2026-11-21-four-models/M03-deepseek-flash.png)](docs/benchmark-assets/2026-11-21-four-models/M03-deepseek-flash.png) | [![HY4 的 M03](docs/benchmark-assets/2026-11-21-four-models/M03-hy4.png)](docs/benchmark-assets/2026-11-21-four-models/M03-hy4.png) | [![HY4 Flash 的 M03](docs/benchmark-assets/2026-11-21-four-models/M03-hy4-flash.png)](docs/benchmark-assets/2026-11-21-four-models/M03-hy4-flash.png) |
 
 ### 6.2 分数与结论
 
@@ -181,12 +181,12 @@ Sol 对比同题的匿名产物截图，衡量体块比例、门窗节奏、屋�
 | 3 | 混元 HY4 | 90.34 | 72.20 | **81.27** |
 | 4 | 混元 HY4 Flash | 89.44 | 69.25 | **79.35** |
 
-按第 2 节的四项设计及第 3 节的两组口径出分。文字组用 `hunyuan-embedding-20250716` 的 1024 维向量计算贴合度，多模态以 Sol 对照原图给出的可见特征评分。综合分以两组等权计算。 [各维度实得分与评分证据](agent-benchmark-results/2026-11-21-four-models/report.md) · [向量配置](agent-benchmark-results/2026-11-21-four-models/embedding.json)
+按第 2 节的四项设计及第 3 节的两组口径出分。文字组用 `hunyuan-embedding-20250716` 的 1024 维向量计算贴合度，多模态以 Sol 对照原图给出的可见特征评分。综合分以两组等权计算。 [各维度实得分与评分证据](docs/benchmark-assets/2026-11-21-four-models/report.md) · [向量配置](docs/benchmark-assets/2026-11-21-four-models/embedding.json)
 
-- **Astra 两组均第一**，多模态有 4/5 道题成功，平均还原分为 57.25/70。L05 的文字版凯旋门因占地有缺口判为部分完成。 [L05 检查记录](agent-benchmark-results/2026-11-21-four-models/L05/gpt-6.2-astra/generation.json)
-- **DeepSeek Flash 综合第二**，十道文字题全部成功，M03 黄鹤楼单题 95 分。其 M05 凯旋门的居中开口偏窄，泰姬陵缺少两侧较低顶体量，拉低了图片组平均分。 [M03 评分](agent-benchmark-results/2026-11-21-four-models/M03/deepseek-flash/score.json) · [M05 裁判记录](agent-benchmark-results/2026-11-21-four-models/M05/deepseek-flash/judge.json)
-- **HY4 与 DeepSeek Flash 的文字总分仅差 0.04 分**，两者综合名次的差距主要来自多模态。**HY4 Flash 的首轮通过最多、生成中位耗时最短**，但 M04 与 M05 的屋顶体量和开口比例还原分偏低。 [模型分项](agent-benchmark-results/2026-11-21-four-models/summary.json)
-- **白宫柱廊是共同失分点**。四款都能生成建筑，中央立柱门廊这一核心项均得 0 分，四个任务都判为部分完成。 [M01 匿名盲评记录](agent-benchmark-results/2026-11-21-four-models/M01/judge-batch.json)
+- **Astra 两组均第一**，多模态有 4/5 道题成功，平均还原分为 57.25/70。L05 的文字版凯旋门因占地有缺口判为部分完成。 [L05 检查记录](docs/benchmark-assets/2026-11-21-four-models/L05/gpt-6.2-astra/generation.json)
+- **DeepSeek Flash 综合第二**，十道文字题全部成功，M03 黄鹤楼单题 95 分。其 M05 凯旋门的居中开口偏窄，泰姬陵缺少两侧较低顶体量，拉低了图片组平均分。 [M03 评分](docs/benchmark-assets/2026-11-21-four-models/M03/deepseek-flash/score.json) · [M05 裁判记录](docs/benchmark-assets/2026-11-21-four-models/M05/deepseek-flash/judge.json)
+- **HY4 与 DeepSeek Flash 的文字总分仅差 0.04 分**，两者综合名次的差距主要来自多模态。**HY4 Flash 的首轮通过最多、生成中位耗时最短**，但 M04 与 M05 的屋顶体量和开口比例还原分偏低。 [模型分项](docs/benchmark-assets/2026-11-21-four-models/summary.json)
+- **白宫柱廊是共同失分点**。四款都能生成建筑，中央立柱门廊这一核心项均得 0 分，四个任务都判为部分完成。 [M01 匿名盲评记录](docs/benchmark-assets/2026-11-21-four-models/M01/judge-batch.json)
 
 排名对应本轮题集和各模型的网页思考档。每个模型每题采一个有效结果，Sol 与 Astra 属于同一模型系列，小分差有待复跑与人工复核。产物使用网页预置组件和占位模型渲染，游戏厅真实美术资产仍待导入验收。
 
@@ -194,20 +194,39 @@ Sol 对比同题的匿名产物截图，衡量体块比例、门窗节奏、屋�
 
 | 困难 | 怎么解决 |
 |---|---|
-| 看起来像 L 形或有庭院，实际占地可能只是立面前凸或一侧敞开。 | T03 检查实际栅格是否只有一个矩形角缺口。T05 从建筑外围搜索空格，区分真正围合的内院和敞开凹口。禁窗题同样从摆放清单核对实际窗数。 |
-| 一句短需求和一段长截图描述粒度不同，向量相似度也可能把两层和三层判得很近。 | 先按五个维度准备题意标签，Sol 按相同字段读图，再逐维比较。楼层、方向和开口这类精确要求按实际命中计分。 |
-| 地标的真实曲面、贯通拱洞和独立构件可能超出预置组件的表达能力。 | 在写评分表时先限定可实现的特征。泰姬陵保留居中高起体量，凯旋门用宽门近似中央开口。比萨斜塔插画保留塔身层次与重复开口，精确倾角和人物化细节免评。 |
-| 实拍、插画和游戏截图的视角、背景不同，同一建筑在不同画面里看起来差别很大。 | 五张参考图统一尺寸和编码。题目先定主视图角度，Sol 对照原图及匿名产物，只按预定的建筑特征评分，斜俯视图用于确认结构。 |
+| 题目设计：模型直接生成每个组件的三维坐标 vs 设计规则 | 题目要求模型输出体块、层数、门窗和屋顶等结构化设计规则，再由统一的 Solver 计算组件摆放。各模型使用同一套求解规则，便于比较它们对需求的理解和设计质量。 |
+| 非对称匹配：用户的描述可以很短 | 先按五个维度准备题意标签，Sol 按相同字段读图，再逐维比较。楼层、方向和开口这类精确要求按实际命中计分。 |
+| 预制件缺失影响 | 评测重点看模型能否抓住关键特征，允许用现有组件合理近似。缺少的组件单独记录，作为后续扩充组件库的依据。 |
+| 建筑贴合度设计 | 可让多模态模型直接对照用户输入和建筑截图打分。本轮采用逐维 embedding，只比较题目涉及的维度，便于查看各项得分，调整权重后也能用已有标签复算。 |
 
 ## 8. 模型变强或过拟合后怎么调整
 
-基础题接近满分时，增加需要同时推理的约束，例如在同一题中指定入口朝向、上层退台和某层不开窗。通过率高了以后，加入一轮就能分辨的难点，如相似的 U 形院落与封闭内院，或同风格但比例和开口位置不同的参考图。保留少量原题作为跨版本对照，新增题单独报告。
+### 8.1 模型变强后怎么调整
 
-用留出题检验能否泛化。按建筑原型分批隔离，防止同一个地标的名称题、近似照片和提示词改写分散到公开题和留出题中。为留出组更换视角、尺度和建筑原型。遇到分差很小或裁判理由与图不符时，复跑该题并抽检图片顺序，结合人工核对确认差异是否稳定。
+1. **提高单题复杂度。** 加入更细的描述和约束，把验收标准定得更具体。例如「首层东侧入户，二层向北退台，退台边缘带栏杆，顶层不开窗」。逐项检查模型能否同时满足这些要求。
+2. **加入多轮修改。** 先让模型生成一座建筑，再提出局部调整，例如「把入口从东面移到西面，保留二层露台」。分别检查指定修改是否做到、原有方案是否保留，重点测试模型能否改好局部、保持整体稳定。
+
+### 8.2 模型过拟合后怎么调整
+
+检验过拟合时，同一建筑的名称题、参考图和提示词改写归到同一组，再划分公开题和留出题。可以从三个方向补题。
+
+1. **未参与调试的新建筑。** 选现实中少见的 UGC 布局，比如三翼相连、只有东翼有二层。先用 Solver 验证现有组件能搭出来，再用这类留出题测试模型能否根据新需求规划建筑体块。
+2. **同题换表达。** 给同一建筑换拍摄角度，或把文字改成口语、加入与建造无关的背景信息。保持核心要求一致，检查文字题的约束命中是否稳定，图片题只比较不同视角都能看到的特征。
+3. **只改一个关键要求。** 例如将「门开在东面」改成「门开在西面」。根据摆放清单确认门向随要求改变，同时核对其他约束是否仍满足。
+
+遇到分差很小或裁判理由与图不符时，复跑该题并交换产物展示顺序，再结合人工核对确认差异是否稳定。
 
 ## 9. 这套造题方法能否规模化
 
-**普通建筑题可以批量生成。** 先抽样楼层、占地、屋顶、朝向和开口，再用求解器验证存在可行解。从同一份结构数据生成自然语言提示和可执行检查，按风格、几何类型、约束数量与难度抽样。去重时按建筑原型和约束组合分组，避免样本量被措辞改写放大。
+普通建筑题最适合批量造题。先组合楼层、占地、屋顶、朝向和开口，用 Solver 验证有可行解，再从同一份设计生成提示词和验收条件。扩充题库时，按建筑原型、约束组合和难度抽样去重。
 
-**地标与参考图题可以批量执行，关键特征仍需审核。** 每题保存参考、取景、可表达的近似范围、检查点与权重。自动化覆盖图片预处理、生成、求解、渲染和按统一结构评分。人工主要检查图片是否足以判断特征、预置组件能否表达，以及 Sol 的证据是否与画面相符。题集扩大后，按题型抽查并复核高分与低分的边界样本。
+| 测试 | 可以批量做的部分 | 需要人工把关的部分 |
+|---|---|---|
+| 普通建筑与规则校验 | 从设计参数批量生成题目和验收条件，机检楼层、门向、禁窗和连通性。 | 抽查题目是否自然、有区分度。 |
+| 建筑贴合度 | 批量用 Sol 提取标签，逐维计算 embedding 分，机检精确约束。 | 抽查题意标签是否抓住玩家要求，读图描述是否准确。 |
+| 建筑美感 | 用统一视角渲染，由 Sol 对匿名产物打分。 | 校准审美标准，复核争议样本的评分理由。 |
+| 地标名称还原 | 批量生成、校验几何、按关键特征评分。 | 确定地标的识别特征和可以接受的近似。 |
+| 多模态参考图 | 批量预处理图片、生成建筑、渲染并对照评分。 | 选图，确认哪些特征可见，为每题定取景角度和评分重点。 |
+
+**当前难以全自动规模化的是为新参考图确定评分边界。** 例如本轮凯旋门题，需要人工先确认「中央开口与两侧墩体的比例」计分，允许用宽门近似，拱券曲面和前后贯通免评。标准确认后，生成和评分可以批量执行。
 

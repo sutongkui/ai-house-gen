@@ -1,0 +1,71 @@
+{
+  "name": "白金汉宫东立面主体",
+  "style": "european",
+  "design_notes": "新古典对称主体，中央三开间凸出，南向正门居中，坡屋顶与竖向窗",
+  "floor_height": 7,
+  "plinth": 1,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          56,
+          20
+        ],
+        [
+          20,
+          20,
+          16,
+          6
+        ]
+      ],
+      "doors": [
+        {
+          "block": 1,
+          "side": "S",
+          "at": 0.5,
+          "width": 4
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 3
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          56,
+          20
+        ],
+        [
+          20,
+          20,
+          16,
+          6
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 3
+      },
+      "eave": true
+    }
+  ],
+  "roof": {
+    "type": "hip",
+    "pitch": 38,
+    "overhang": 2,
+    "curve": false
+  },
+  "columns": null
+}

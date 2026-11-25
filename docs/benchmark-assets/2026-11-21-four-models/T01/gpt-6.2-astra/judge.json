@@ -1,0 +1,17 @@
+{
+  "id": "D",
+  "seen": {
+    "literal": "两层平顶，二层南退设通长玻璃栏杆露台，南面两层均为双窗夹中央门",
+    "subject": "两层独立住宅式建筑",
+    "usage": "居住及露台休憩",
+    "style": "现代简约",
+    "scene": "浅色网格地面上的单体建筑"
+  },
+  "beauty": {
+    "proportion": 5,
+    "facade_rhythm": 5,
+    "roof_harmony": 5,
+    "style_coherence": 5
+  },
+  "reason": "二层退台让上下体块层次清楚，两层中央门与两侧窗上下对位，屋沿与栏杆形成平行横线。"
+}

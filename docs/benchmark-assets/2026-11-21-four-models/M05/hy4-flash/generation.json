@@ -1,0 +1,38 @@
+{
+  "task": "M05",
+  "model": "hy4-flash",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 3267,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 3482,
+        "completion_tokens": 218,
+        "total_tokens": 3700
+      },
+      "raw": "{\"name\":\"凯旋门式纪念拱\",\"style\":\"european\",\"design_notes\":\"正面五段式古典纪念拱，中央高拱洞、两侧厚墩与顶部水平檐冠\",\"floor_height\":9,\"plinth\":2,\"floors\":[{\"blocks\":[[0,0,12,10],[44,0,12,10],[12,0,32,10]],\"doors\":[{\"block\":2,\"side\":\"S\",\"at\":0.5,\"width\":6}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":false},{\"blocks\":[[0,0,12,10],[44,0,12,10],[12,0,32,10]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"flat\",\"pitch\":0,\"overhang\":2,\"curve\":false},\"columns\":null}"
+    }
+  ],
+  "status": "待评分",
+  "checks": [],
+  "durationMs": 3268,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 28,
+    "depth": 5,
+    "height": 10.9,
+    "area": 280,
+    "prefabTotal": 379,
+    "windows": 34,
+    "doors": 1
+  }
+}

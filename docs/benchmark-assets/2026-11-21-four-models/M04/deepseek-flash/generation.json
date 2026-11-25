@@ -1,0 +1,46 @@
+{
+  "task": "M04",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 11729,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 2861,
+        "completion_tokens": 1503,
+        "total_tokens": 4364,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1278
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 1069
+      },
+      "raw": "{\"name\":\"穹顶陵殿\",\"style\":\"european\",\"design_notes\":\"图中读到莫卧儿式对称陵殿：白色方体、中央大穹顶、正面高拱门、四周露台。用两层收分体块近似，四坡攒尖顶代替穹顶。\",\"floor_height\":8,\"plinth\":2,\"floors\":[{\"blocks\":[[0,0,32,28]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":6}],\"window\":{\"width\":4,\"height\":5,\"sill\":2,\"gap\":4},\"eave\":false},{\"blocks\":[[3,3,26,22]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":4}],\"window\":{\"width\":3,\"height\":5,\"sill\":2,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"pyramid\",\"pitch\":50,\"overhang\":1,\"curve\":false},\"columns\":null}"
+    }
+  ],
+  "status": "待评分",
+  "checks": [],
+  "durationMs": 11730,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 16,
+    "depth": 14,
+    "height": 15.555,
+    "area": 367,
+    "prefabTotal": 634,
+    "windows": 24,
+    "doors": 2
+  }
+}

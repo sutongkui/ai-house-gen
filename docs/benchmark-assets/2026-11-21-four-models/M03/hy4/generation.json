@@ -1,0 +1,60 @@
+{
+  "task": "M03",
+  "model": "hy4",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 5807,
+      "format": 4,
+      "errors": [
+        {
+          "code": "E_BLOCKS",
+          "msg": "第5层 block1 宽深至少 4 格（2m），当前 w=8, d=3",
+          "hard": true
+        }
+      ],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 3482,
+        "completion_tokens": 369,
+        "total_tokens": 3851
+      },
+      "raw": "{\"name\":\"五层中式楼阁\",\"style\":\"chinese\",\"design_notes\":\"图中为黄鹤楼式五层攒尖楼阁，层层收进、腰檐起翘，底层南面居中开门\",\"floor_height\":7,\"plinth\":2,\"floors\":[{\"blocks\":[[0,0,42,30],[7,30,28,8]],\"doors\":[{\"block\":1,\"side\":\"S\",\"at\":0.5,\"width\":6}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[4,4,34,26],[10,30,22,5]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[8,8,26,22],[13,30,16,4]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[11,11,20,18],[15,29,12,4]],\"doors\":[],\"window\":{\"width\":3,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[14,14,14,14],[17,28,8,3]],\"doors\":[],\"window\":{\"width\":3,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"xieshan\",\"pitch\":30,\"overhang\":4,\"curve\":true},\"columns\":{\"side\":\"S\",\"spacing\":7,\"offset\":3}}"
+    },
+    {
+      "round": 2,
+      "durationMs": 4231,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 3929,
+        "completion_tokens": 369,
+        "total_tokens": 4298,
+        "prompt_tokens_details": {
+          "cached_tokens": 3392
+        }
+      },
+      "raw": "{\"name\":\"五层中式楼阁\",\"style\":\"chinese\",\"design_notes\":\"图中为黄鹤楼式五层攒尖楼阁，层层收进、腰檐起翘，底层南面居中开门\",\"floor_height\":7,\"plinth\":2,\"floors\":[{\"blocks\":[[0,0,42,30],[7,30,28,8]],\"doors\":[{\"block\":1,\"side\":\"S\",\"at\":0.5,\"width\":6}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[4,4,34,26],[10,30,22,5]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[8,8,26,22],[13,30,16,4]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[11,11,20,18],[15,29,12,4]],\"doors\":[],\"window\":{\"width\":3,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[14,14,14,14],[17,27,8,4]],\"doors\":[],\"window\":{\"width\":3,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"xieshan\",\"pitch\":30,\"overhang\":4,\"curve\":true},\"columns\":{\"side\":\"S\",\"spacing\":7,\"offset\":3}}"
+    }
+  ],
+  "status": "待评分",
+  "checks": [],
+  "durationMs": 10039,
+  "scores": {
+    "rules": 28
+  },
+  "selectedRound": 2,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 21,
+    "depth": 19,
+    "height": 20.521,
+    "area": 936,
+    "prefabTotal": 1833,
+    "windows": 70,
+    "doors": 1
+  }
+}

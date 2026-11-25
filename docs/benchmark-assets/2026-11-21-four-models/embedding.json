@@ -1,0 +1,6 @@
+{
+  "backend": "api",
+  "model": "hunyuan-embedding-20250716",
+  "host": "hunyuanapi.woa.com",
+  "dimensions": 1024
+}

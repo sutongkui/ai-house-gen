@@ -1,0 +1,67 @@
+{
+  "task": "T05",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 4765,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1838,
+        "completion_tokens": 637,
+        "total_tokens": 2475,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 452
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 174
+      },
+      "raw": "{\"name\":\"日式围合民宿\",\"style\":\"japanese\",\"design_notes\":\"四面厢房围出中央露天内院，西侧设入户门；四坡屋顶带起翘，低台基，木廊柱\",\"floor_height\":6,\"plinth\":1,\"floors\":[{\"blocks\":[[0,0,34,8],[0,8,8,10],[26,8,8,10],[0,18,34,8]],\"doors\":[{\"block\":1,\"side\":\"W\",\"at\":0.5,\"width\":3}],\"window\":{\"width\":4,\"height\":3,\"sill\":1,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"hip\",\"pitch\":27,\"overhang\":3,\"curve\":true},\"columns\":{\"side\":\"W\",\"spacing\":5,\"offset\":3}}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "日式",
+      "hit": true
+    },
+    {
+      "name": "单层",
+      "hit": true
+    },
+    {
+      "name": "围合内院",
+      "hit": true
+    },
+    {
+      "name": "西侧入户",
+      "hit": true
+    },
+    {
+      "name": "四坡顶",
+      "hit": true
+    }
+  ],
+  "durationMs": 4765,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 17,
+    "depth": 13,
+    "height": 4.519,
+    "area": 176,
+    "prefabTotal": 268,
+    "windows": 19,
+    "doors": 1
+  }
+}

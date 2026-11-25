@@ -1,0 +1,83 @@
+{
+  "name": "四庭日式民宿",
+  "style": "japanese",
+  "design_notes": "四翼单层房屋围合一座露天内院，西翼正中入户，各翼向院内开门，屋面采用低坡四坡顶。",
+  "floor_height": 6,
+  "plinth": 1,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          32,
+          8
+        ],
+        [
+          0,
+          22,
+          32,
+          8
+        ],
+        [
+          0,
+          8,
+          8,
+          14
+        ],
+        [
+          24,
+          8,
+          8,
+          14
+        ]
+      ],
+      "doors": [
+        {
+          "block": 2,
+          "side": "W",
+          "at": 0.5,
+          "width": 3
+        },
+        {
+          "block": 2,
+          "side": "E",
+          "at": 0.5,
+          "width": 3
+        },
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 3
+        },
+        {
+          "block": 1,
+          "side": "N",
+          "at": 0.5,
+          "width": 3
+        },
+        {
+          "block": 3,
+          "side": "W",
+          "at": 0.5,
+          "width": 3
+        }
+      ],
+      "window": {
+        "width": 4,
+        "height": 4,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "hip",
+    "pitch": 27,
+    "overhang": 3,
+    "curve": true
+  },
+  "columns": null
+}

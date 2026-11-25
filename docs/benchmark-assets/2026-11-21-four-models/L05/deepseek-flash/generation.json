@@ -1,0 +1,67 @@
+{
+  "task": "L05",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 11973,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1824,
+        "completion_tokens": 1746,
+        "total_tokens": 3570,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1411
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 160
+      },
+      "raw": "{\"name\":\"巴黎凯旋门\",\"style\":\"european\",\"design_notes\":\"五层等高石砌体块还原凯旋门主体，南面正中开大拱门贯通南北，阁楼层竖向小窗，平顶女儿墙\",\"floor_height\":8,\"plinth\":1,\"floors\":[{\"blocks\":[[0,0,36,16]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":6},{\"block\":0,\"side\":\"N\",\"at\":0.5,\"width\":6}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":11},\"eave\":false},{\"blocks\":[[0,0,36,16]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":11},\"eave\":false},{\"blocks\":[[0,0,36,16]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":11},\"eave\":false},{\"blocks\":[[0,0,36,16]],\"doors\":[],\"window\":{\"width\":2,\"height\":3,\"sill\":3,\"gap\":14},\"eave\":false},{\"blocks\":[[0,0,36,16]],\"doors\":[],\"window\":{\"width\":2,\"height\":2,\"sill\":4,\"gap\":14},\"eave\":false}],\"roof\":{\"type\":\"flat\",\"pitch\":0,\"overhang\":0,\"curve\":false},\"columns\":null}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "矩形占地",
+      "hit": true
+    },
+    {
+      "name": "宽门楼",
+      "hit": true
+    },
+    {
+      "name": "中轴对称",
+      "hit": true
+    },
+    {
+      "name": "平顶",
+      "hit": true
+    },
+    {
+      "name": "居中宽门洞近似",
+      "hit": true
+    }
+  ],
+  "durationMs": 11973,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 18,
+    "depth": 8,
+    "height": 21.4,
+    "area": 720,
+    "prefabTotal": 944,
+    "windows": 38,
+    "doors": 2
+  }
+}

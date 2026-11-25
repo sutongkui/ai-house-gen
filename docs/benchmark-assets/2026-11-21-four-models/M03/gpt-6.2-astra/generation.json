@@ -1,0 +1,36 @@
+{
+  "task": "M03",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 24093,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 16365
+      },
+      "raw": "{\n  \"name\": \"黄鹤楼\",\n  \"style\": \"chinese\",\n  \"design_notes\": \"五层楼阁沿中轴逐层收进，中央楼身向南凸出，两翼舒展；层层设腰檐，顶部歇山交叠，四角起翘。\",\n  \"floor_height\": 9,\n  \"plinth\": 2,\n  \"floors\": [\n    {\n      \"blocks\": [[0, 4, 45, 24], [12, 0, 21, 32]],\n      \"doors\": [\n        {\"block\": 1, \"side\": \"S\", \"at\": 0.5, \"width\": 4},\n        {\"block\": 1, \"side\": \"S\", \"at\": 0.1667, \"width\": 3},\n        {\"block\": 1, \"side\": \"S\", \"at\": 0.8333, \"width\": 3}\n      ],\n      \"window\": {\"width\": 4, \"height\": 5, \"sill\": 2, \"gap\": 3},\n      \"eave\": true\n    },\n    {\n      \"blocks\": [[4, 6, 37, 20], [12, 2, 21, 28]],\n      \"doors\": [{\"block\": 1, \"side\": \"S\", \"at\": 0.5, \"width\": 3}],\n      \"window\": {\"width\": 5, \"height\": 5, \"sill\": 2, \"gap\": 2},\n      \"eave\": true\n    },\n    {\n      \"blocks\": [[5, 7, 35, 18], [13, 3, 19, 26]],\n      \"doors\": [{\"block\": 1, \"side\": \"S\", \"at\": 0.5, \"width\": 3}],\n      \"window\": {\"width\": 4, \"height\": 5, \"sill\": 2, \"gap\": 2},\n      \"eave\": true\n    },\n    {\n      \"blocks\": [[6, 8, 33, 16], [13, 4, 19, 24]],\n      \"doors\": [{\"block\": 1, \"side\": \"S\", \"at\": 0.5, \"width\": 3}],\n      \"window\": {\"width\": 4, \"height\": 5, \"sill\": 2, \"gap\": 2},\n      \"eave\": true\n    },\n    {\n      \"blocks\": [[8, 9, 29, 14], [15, 5, 15, 22]],\n      \"doors\": [{\"block\": 1, \"side\": \"S\", \"at\": 0.5, \"width\": 3}],\n      \"window\": {\"width\": 4, \"height\": 4, \"sill\": 2, \"gap\": 2},\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\": \"xieshan\", \"pitch\": 30, \"overhang\": 4, \"curve\": true},\n  \"columns\": {\"side\": \"S\", \"spacing\": 7, \"offset\": 3}\n}"
+    }
+  ],
+  "status": "待评分",
+  "checks": [],
+  "durationMs": 24094,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 22.5,
+    "depth": 16,
+    "height": 25.665,
+    "area": 1036,
+    "prefabTotal": 2027,
+    "windows": 64,
+    "doors": 7
+  }
+}

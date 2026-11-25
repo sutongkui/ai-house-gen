@@ -1,0 +1,47 @@
+{
+  "name": "单层L形欧式住宅",
+  "style": "european",
+  "design_notes": "L形单层住宅，东侧居中入户，双坡屋顶配竖向窗",
+  "floor_height": 7,
+  "plinth": 1,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          30,
+          18
+        ],
+        [
+          22,
+          18,
+          8,
+          12
+        ]
+      ],
+      "doors": [
+        {
+          "block": 1,
+          "side": "E",
+          "at": 0.5,
+          "width": 3
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 5
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "gable",
+    "pitch": 40,
+    "overhang": 2,
+    "curve": false
+  },
+  "columns": null
+}

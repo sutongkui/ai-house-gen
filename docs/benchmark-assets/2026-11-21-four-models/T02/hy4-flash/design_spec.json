@@ -1,0 +1,90 @@
+{
+  "name": "三层中式歇山楼阁",
+  "style": "chinese",
+  "design_notes": "中轴对称三层楼阁，南面正中开门，逐层收进形成露台，顶层无窗",
+  "floor_height": 6,
+  "plinth": 2,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          28,
+          22
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 4
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 3,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          3,
+          3,
+          22,
+          16
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 3
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 3,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          7,
+          6,
+          14,
+          10
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 3
+        }
+      ],
+      "window": "none",
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "xieshan",
+    "pitch": 30,
+    "overhang": 3,
+    "curve": true
+  },
+  "columns": {
+    "side": "S",
+    "spacing": 7,
+    "offset": 3
+  }
+}

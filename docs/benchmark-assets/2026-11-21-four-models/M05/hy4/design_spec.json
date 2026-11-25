@@ -1,0 +1,60 @@
+{
+  "name": "凯旋门主体",
+  "style": "european",
+  "design_notes": "图中为单层纪念拱门，平顶厚檐、中央大拱洞，按外壳近似为围合体块",
+  "floor_height": 9,
+  "plinth": 1,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          8,
+          16
+        ],
+        [
+          30,
+          0,
+          8,
+          16
+        ],
+        [
+          0,
+          0,
+          38,
+          5
+        ],
+        [
+          0,
+          11,
+          38,
+          5
+        ]
+      ],
+      "doors": [
+        {
+          "block": 2,
+          "side": "N",
+          "at": 0.5,
+          "width": 6
+        },
+        {
+          "block": 3,
+          "side": "S",
+          "at": 0.5,
+          "width": 6
+        }
+      ],
+      "window": "none",
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "flat",
+    "pitch": 0,
+    "overhang": 2,
+    "curve": false
+  },
+  "columns": null
+}

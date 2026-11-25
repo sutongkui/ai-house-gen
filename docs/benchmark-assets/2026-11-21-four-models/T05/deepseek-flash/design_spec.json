@@ -1,0 +1,63 @@
+{
+  "name": "日式围合民宿",
+  "style": "japanese",
+  "design_notes": "四面厢房围出中央露天内院，西侧设入户门；四坡屋顶带起翘，低台基，木廊柱",
+  "floor_height": 6,
+  "plinth": 1,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          34,
+          8
+        ],
+        [
+          0,
+          8,
+          8,
+          10
+        ],
+        [
+          26,
+          8,
+          8,
+          10
+        ],
+        [
+          0,
+          18,
+          34,
+          8
+        ]
+      ],
+      "doors": [
+        {
+          "block": 1,
+          "side": "W",
+          "at": 0.5,
+          "width": 3
+        }
+      ],
+      "window": {
+        "width": 4,
+        "height": 3,
+        "sill": 1,
+        "gap": 4
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "hip",
+    "pitch": 27,
+    "overhang": 3,
+    "curve": true
+  },
+  "columns": {
+    "side": "W",
+    "spacing": 5,
+    "offset": 3
+  }
+}

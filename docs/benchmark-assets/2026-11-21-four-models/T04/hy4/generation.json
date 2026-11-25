@@ -1,0 +1,59 @@
+{
+  "task": "T04",
+  "model": "hy4",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 1992,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1808,
+        "completion_tokens": 127,
+        "total_tokens": 1935
+      },
+      "raw": "{\"name\":\"单层北欧无窗小屋\",\"style\":\"nordic\",\"design_notes\":\"矩形小体量，北向入户，双坡屋顶，整栋不开窗\",\"floor_height\":6,\"plinth\":1,\"floors\":[{\"blocks\":[[0,0,24,16]],\"doors\":[{\"block\":0,\"side\":\"N\",\"at\":0.5,\"width\":3}],\"window\":\"none\",\"eave\":false}],\"roof\":{\"type\":\"gable\",\"pitch\":45,\"overhang\":1,\"curve\":false},\"columns\":null}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "北欧",
+      "hit": true
+    },
+    {
+      "name": "单层矩形",
+      "hit": true
+    },
+    {
+      "name": "双坡顶",
+      "hit": true
+    },
+    {
+      "name": "北侧入户",
+      "hit": true
+    },
+    {
+      "name": "全楼无窗",
+      "hit": true
+    }
+  ],
+  "durationMs": 1992,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 12,
+    "depth": 8,
+    "height": 7.5,
+    "area": 96,
+    "prefabTotal": 125,
+    "windows": 0,
+    "doors": 1
+  }
+}

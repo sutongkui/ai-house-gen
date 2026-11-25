@@ -1,0 +1,59 @@
+{
+  "task": "L02",
+  "model": "hy4",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 6294,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1799,
+        "completion_tokens": 385,
+        "total_tokens": 2184
+      },
+      "raw": "{\"name\":\"姬路城大天守主体\",\"style\":\"japanese\",\"design_notes\":\"五重白壁城楼，逐层退台，顶层略收，多重起翘屋檐\",\"floor_height\":6,\"plinth\":2,\"floors\":[{\"blocks\":[[0,0,36,28]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":4}],\"window\":{\"width\":4,\"height\":3,\"sill\":2,\"gap\":5},\"eave\":true},{\"blocks\":[[2,2,32,24]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":3}],\"window\":{\"width\":4,\"height\":3,\"sill\":2,\"gap\":5},\"eave\":true},{\"blocks\":[[4,4,28,20]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":3}],\"window\":{\"width\":4,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[6,6,24,16]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":3}],\"window\":{\"width\":4,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[8,8,20,12]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":3}],\"window\":{\"width\":4,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"hip\",\"pitch\":28,\"overhang\":3,\"curve\":true},\"columns\":null}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "日式",
+      "hit": true
+    },
+    {
+      "name": "至少三层",
+      "hit": true
+    },
+    {
+      "name": "向上收分",
+      "hit": true
+    },
+    {
+      "name": "坡顶",
+      "hit": true
+    },
+    {
+      "name": "下层腰檐",
+      "hit": true
+    }
+  ],
+  "durationMs": 6296,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 18,
+    "depth": 14,
+    "height": 17.595,
+    "area": 740,
+    "prefabTotal": 1230,
+    "windows": 47,
+    "doors": 5
+  }
+}

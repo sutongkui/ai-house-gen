@@ -1,0 +1,59 @@
+{
+  "task": "T03",
+  "model": "hy4",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 2011,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1806,
+        "completion_tokens": 147,
+        "total_tokens": 1953
+      },
+      "raw": "{\"name\":\"L形单层欧式住宅\",\"style\":\"european\",\"design_notes\":\"单层L形体块，东侧主入口，双坡屋顶与竖向窄窗\",\"floor_height\":7,\"plinth\":1,\"floors\":[{\"blocks\":[[0,0,28,20],[28,0,12,12]],\"doors\":[{\"block\":1,\"side\":\"E\",\"at\":0.5,\"width\":3}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"gable\",\"pitch\":40,\"overhang\":2,\"curve\":false},\"columns\":null}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "欧式",
+      "hit": true
+    },
+    {
+      "name": "单层",
+      "hit": true
+    },
+    {
+      "name": "L 形",
+      "hit": true
+    },
+    {
+      "name": "双坡顶",
+      "hit": true
+    },
+    {
+      "name": "东侧入户",
+      "hit": true
+    }
+  ],
+  "durationMs": 2011,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 20,
+    "depth": 10,
+    "height": 8.195,
+    "area": 176,
+    "prefabTotal": 230,
+    "windows": 17,
+    "doors": 1
+  }
+}

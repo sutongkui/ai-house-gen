@@ -1,0 +1,59 @@
+{
+  "name": "泰姬陵主陵",
+  "style": "chinese",
+  "design_notes": "中央圆顶方殿，四角塔楼由上层收进表达，正面居中门，白色大理石感",
+  "floor_height": 8,
+  "plinth": 2,
+  "floors": [
+    {
+      "blocks": [
+        [
+          10,
+          10,
+          32,
+          32
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 5
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          13,
+          13,
+          26,
+          26
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": true
+    }
+  ],
+  "roof": {
+    "type": "pyramid",
+    "pitch": 35,
+    "overhang": 3,
+    "curve": false
+  },
+  "columns": null
+}

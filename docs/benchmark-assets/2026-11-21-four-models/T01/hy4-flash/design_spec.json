@@ -1,0 +1,72 @@
+{
+  "name": "两层南露台现代住宅",
+  "style": "modern",
+  "design_notes": "一层L形体块，二层北收并保留南侧露台，南面居中入户，平屋顶大窗",
+  "floor_height": 6,
+  "plinth": 0,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          28,
+          20
+        ],
+        [
+          20,
+          20,
+          8,
+          8
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 3
+        }
+      ],
+      "window": {
+        "width": 6,
+        "height": 4,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          2,
+          0,
+          24,
+          14
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 3
+        }
+      ],
+      "window": {
+        "width": 6,
+        "height": 4,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "flat",
+    "pitch": 0,
+    "overhang": 0,
+    "curve": false
+  },
+  "columns": null
+}

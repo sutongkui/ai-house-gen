@@ -1,0 +1,36 @@
+{
+  "task": "M04",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 22332,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 16250
+      },
+      "raw": "{\n  \"name\": \"泰姬陵主殿\",\n  \"style\": \"european\",\n  \"design_notes\": \"双层主殿沿中轴突出南门，两翼逐段收进。以一大两小的攒尖顶近似主穹顶与两侧圆亭。\",\n  \"floor_height\": 9,\n  \"plinth\": 3,\n  \"floors\": [\n    {\n      \"blocks\": [[16, 0, 20, 38], [5, 2, 11, 34], [36, 2, 11, 34], [0, 5, 5, 28], [47, 5, 5, 28]],\n      \"doors\": [{\"block\": 0, \"side\": \"S\", \"at\": 0.5, \"width\": 6}],\n      \"window\": {\"width\": 4, \"height\": 6, \"sill\": 1, \"gap\": 6},\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[16, 0, 20, 38], [5, 2, 11, 34], [36, 2, 11, 34], [0, 5, 5, 28], [47, 5, 5, 28]],\n      \"doors\": [],\n      \"window\": {\"width\": 5, \"height\": 7, \"sill\": 1, \"gap\": 6},\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[16, 9, 20, 20], [8, 19, 8, 8], [36, 19, 8, 8]],\n      \"doors\": [],\n      \"window\": {\"width\": 2, \"height\": 5, \"sill\": 2, \"gap\": 2},\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\": \"pyramid\", \"pitch\": 52, \"overhang\": 1, \"curve\": false},\n  \"columns\": null\n}"
+    }
+  ],
+  "status": "待评分",
+  "checks": [],
+  "durationMs": 22333,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 26,
+    "depth": 19,
+    "height": 21.4,
+    "area": 1026,
+    "prefabTotal": 1735,
+    "windows": 50,
+    "doors": 1
+  }
+}

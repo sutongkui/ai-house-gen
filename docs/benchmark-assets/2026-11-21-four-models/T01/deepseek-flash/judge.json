@@ -1,0 +1,17 @@
+{
+  "id": "C",
+  "seen": {
+    "literal": "两层平顶，南面通长玻璃栏杆露台，上层双窗夹门，首层门偏左、窗偏右",
+    "subject": "两层独立住宅式建筑",
+    "usage": "居住及露台休憩",
+    "style": "现代简约",
+    "scene": "浅色网格地面上的单体建筑"
+  },
+  "beauty": {
+    "proportion": 4,
+    "facade_rhythm": 3,
+    "roof_harmony": 5,
+    "style_coherence": 5
+  },
+  "reason": "上层双窗对称夹门，首层入口左移且左端留有大块实墙，立面节奏主要由连续栏杆维系。"
+}

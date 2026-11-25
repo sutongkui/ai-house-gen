@@ -1,0 +1,79 @@
+{
+  "task": "L01",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 23118,
+      "format": 4,
+      "errors": [
+        {
+          "code": "E_BLOCKS",
+          "msg": "第1层 block0 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第2层 block0 超出 0~80 格的场地范围",
+          "hard": true
+        }
+      ],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 14124
+      },
+      "raw": "{\n  \"name\": \"北京故宫太和殿\",\n  \"style\": \"chinese\",\n  \"design_notes\": \"南面按十一开间布柱，中轴设正门。以收进的无窗上层模拟重檐庑殿顶。\",\n  \"floor_height\": 9,\n  \"plinth\": 3,\n  \"floors\": [\n    {\n      \"blocks\": [[0, 0, 132, 68]],\n      \"doors\": [\n        {\"block\": 0, \"side\": \"S\", \"at\": 0.3182, \"width\": 5},\n        {\"block\": 0, \"side\": \"S\", \"at\": 0.4091, \"width\": 5},\n        {\"block\": 0, \"side\": \"S\", \"at\": 0.5, \"width\": 6},\n        {\"block\": 0, \"side\": \"S\", \"at\": 0.5909, \"width\": 5},\n        {\"block\": 0, \"side\": \"S\", \"at\": 0.6818, \"width\": 5}\n      ],\n      \"window\": {\"width\": 7, \"height\": 6, \"sill\": 2, \"gap\": 5},\n      \"eave\": true\n    },\n    {\n      \"blocks\": [[8, 8, 116, 52]],\n      \"doors\": [],\n      \"window\": \"none\",\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\": \"hip\", \"pitch\": 31, \"overhang\": 5, \"curve\": true},\n  \"columns\": {\"side\": \"S\", \"spacing\": 12, \"offset\": 5}\n}"
+    },
+    {
+      "round": 2,
+      "durationMs": 19035,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 14670
+      },
+      "raw": "{\n  \"name\": \"北京故宫太和殿\",\n  \"style\": \"chinese\",\n  \"design_notes\": \"南面按十一开间布柱，中轴设正门。以收进的无窗上层模拟重檐庑殿顶。\",\n  \"floor_height\": 9,\n  \"plinth\": 3,\n  \"floors\": [\n    {\n      \"blocks\": [[0, 0, 77, 40]],\n      \"doors\": [\n        {\"block\": 0, \"side\": \"S\", \"at\": 0.3182, \"width\": 5},\n        {\"block\": 0, \"side\": \"S\", \"at\": 0.4091, \"width\": 5},\n        {\"block\": 0, \"side\": \"S\", \"at\": 0.5, \"width\": 6},\n        {\"block\": 0, \"side\": \"S\", \"at\": 0.5909, \"width\": 5},\n        {\"block\": 0, \"side\": \"S\", \"at\": 0.6818, \"width\": 5}\n      ],\n      \"window\": {\"width\": 7, \"height\": 6, \"sill\": 2, \"gap\": 5},\n      \"eave\": true\n    },\n    {\n      \"blocks\": [[5, 5, 67, 30]],\n      \"doors\": [],\n      \"window\": \"none\",\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\": \"hip\", \"pitch\": 31, \"overhang\": 5, \"curve\": true},\n  \"columns\": {\"side\": \"S\", \"spacing\": 7, \"offset\": 5}\n}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "中式",
+      "hit": true
+    },
+    {
+      "name": "宽横向殿身",
+      "hit": true
+    },
+    {
+      "name": "台基",
+      "hit": true
+    },
+    {
+      "name": "中轴对称",
+      "hit": true
+    },
+    {
+      "name": "四坡主顶",
+      "hit": true
+    }
+  ],
+  "durationMs": 42153,
+  "scores": {
+    "rules": 28
+  },
+  "selectedRound": 2,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 38.5,
+    "depth": 20,
+    "height": 15.006,
+    "area": 1273,
+    "prefabTotal": 1951,
+    "windows": 14,
+    "doors": 5
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "C",
+  "landmark": {
+    "silhouette": 1,
+    "massing": 1,
+    "roof": 2,
+    "facade": 1,
+    "signature": 1
+  },
+  "reason": "中央主屋顶明显高于两侧小屋顶。角部体量前凸，中央入口位于内退墙面，浅色立面横向对称，台基较低。"
+}

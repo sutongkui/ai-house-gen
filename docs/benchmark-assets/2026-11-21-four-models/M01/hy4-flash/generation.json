@@ -1,0 +1,38 @@
+{
+  "task": "M01",
+  "model": "hy4-flash",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 3029,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 3482,
+        "completion_tokens": 153,
+        "total_tokens": 3635
+      },
+      "raw": "{\"name\":\"白宫式新古典住宅\",\"style\":\"european\",\"design_notes\":\"对称白色两层主体，中央柱廊与三角山花，屋顶平顶女儿墙、竖向窗\",\"floor_height\":7,\"plinth\":2,\"floors\":[{\"blocks\":[[0,0,76,30]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":4}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":5},\"eave\":false}],\"roof\":{\"type\":\"flat\",\"pitch\":0,\"overhang\":1,\"curve\":false},\"columns\":{\"side\":\"S\",\"spacing\":8,\"offset\":4}}"
+    }
+  ],
+  "status": "待评分",
+  "checks": [],
+  "durationMs": 3030,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 38,
+    "depth": 15,
+    "height": 5.4,
+    "area": 570,
+    "prefabTotal": 671,
+    "windows": 25,
+    "doors": 1
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": "T03",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 13615,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 13788
+      },
+      "raw": "{\n  \"name\": \"欧式单层L形住宅\",\n  \"style\": \"european\",\n  \"design_notes\": \"东翼向南伸出，与横向主屋组成L形平面。两翼均用双坡屋顶，入户门设在东翼东墙。\",\n  \"floor_height\": 7,\n  \"plinth\": 1,\n  \"floors\": [\n    {\n      \"blocks\": [[0, 0, 30, 14], [18, 14, 12, 16]],\n      \"doors\": [{\"block\": 1, \"side\": \"E\", \"at\": 0.5, \"width\": 3}],\n      \"window\": {\"width\": 3, \"height\": 4, \"sill\": 2, \"gap\": 4},\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\": \"gable\", \"pitch\": 40, \"overhang\": 1, \"curve\": false},\n  \"columns\": null\n}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "欧式",
+      "hit": true
+    },
+    {
+      "name": "单层",
+      "hit": true
+    },
+    {
+      "name": "L 形",
+      "hit": true
+    },
+    {
+      "name": "双坡顶",
+      "hit": true
+    },
+    {
+      "name": "东侧入户",
+      "hit": true
+    }
+  ],
+  "durationMs": 13615,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 15,
+    "depth": 15,
+    "height": 6.937,
+    "area": 153,
+    "prefabTotal": 208,
+    "windows": 15,
+    "doors": 1
+  }
+}

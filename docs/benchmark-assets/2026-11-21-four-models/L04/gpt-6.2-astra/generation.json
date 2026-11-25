@@ -1,0 +1,209 @@
+{
+  "task": "L04",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 49742,
+      "format": 4,
+      "errors": [
+        {
+          "code": "E_BLOCKS",
+          "msg": "第1层 block0 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第1层 block1 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第1层 block2 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第1层 block3 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第1层 block6 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第2层 block0 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第2层 block1 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第2层 block2 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第2层 block3 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第2层 block6 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第3层 block0 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第3层 block1 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第3层 block2 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第3层 block3 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第3层 block6 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第4层 block0 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第4层 block1 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第4层 block2 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第4层 block3 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第4层 block6 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第5层 block0 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第5层 block2 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第5层 block3 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第5层 block4 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第6层 block0 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第6层 block2 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第6层 block3 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第6层 block4 超出 0~80 格的场地范围",
+          "hard": true
+        }
+      ],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 15216
+      },
+      "raw": "{\n  \"name\": \"阿格拉泰姬陵主陵\",\n  \"style\": \"european\",\n  \"design_notes\": \"主陵用阶梯折角近似削角方形，四面门廊居中。中央大攒尖与四座小攒尖模拟主穹顶和角亭。\",\n  \"floor_height\": 9,\n  \"plinth\": 3,\n  \"floors\": [\n    {\n      \"blocks\": [[12,4,94,110],[8,8,102,102],[4,12,110,94],[45,114,28,4],[45,0,28,4],[0,45,4,28],[114,45,4,28]],\n      \"doors\": [{\"block\":3,\"side\":\"S\",\"at\":0.5,\"width\":6}],\n      \"window\": {\"width\":5,\"height\":6,\"sill\":1,\"gap\":8},\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[12,4,94,110],[8,8,102,102],[4,12,110,94],[45,114,28,4],[45,0,28,4],[0,45,4,28],[114,45,4,28]],\n      \"doors\": [],\n      \"window\": \"none\",\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[12,4,94,110],[8,8,102,102],[4,12,110,94],[45,114,28,4],[45,0,28,4],[0,45,4,28],[114,45,4,28]],\n      \"doors\": [],\n      \"window\": {\"width\":5,\"height\":6,\"sill\":1,\"gap\":8},\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[12,4,94,110],[8,8,102,102],[4,12,110,94],[45,114,28,4],[45,0,28,4],[0,45,4,28],[114,45,4,28]],\n      \"doors\": [],\n      \"window\": \"none\",\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[35,35,48,48],[21,21,18,18],[79,21,18,18],[21,79,18,18],[79,79,18,18]],\n      \"doors\": [],\n      \"window\": \"none\",\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[37,37,44,44],[22,22,16,16],[80,22,16,16],[22,80,16,16],[80,80,16,16]],\n      \"doors\": [],\n      \"window\": {\"width\":3,\"height\":6,\"sill\":1,\"gap\":4},\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\":\"pyramid\",\"pitch\":55,\"overhang\":1,\"curve\":false},\n  \"columns\": null\n}"
+    },
+    {
+      "round": 2,
+      "durationMs": 24786,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 15922
+      },
+      "raw": "{\n  \"name\": \"阿格拉泰姬陵主陵\",\n  \"style\": \"european\",\n  \"design_notes\": \"主陵用阶梯折角近似削角方形，四面门廊居中。中央大攒尖与四座小攒尖模拟主穹顶和角亭。\",\n  \"floor_height\": 9,\n  \"plinth\": 3,\n  \"floors\": [\n    {\n      \"blocks\": [[9,5,62,70],[7,7,66,66],[5,9,70,62],[31,75,18,4],[31,1,18,4],[1,31,4,18],[75,31,4,18]],\n      \"doors\": [{\"block\":3,\"side\":\"S\",\"at\":0.5,\"width\":6}],\n      \"window\": {\"width\":5,\"height\":6,\"sill\":1,\"gap\":8},\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[9,5,62,70],[7,7,66,66],[5,9,70,62],[31,75,18,4],[31,1,18,4],[1,31,4,18],[75,31,4,18]],\n      \"doors\": [],\n      \"window\": \"none\",\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[9,5,62,70],[7,7,66,66],[5,9,70,62],[31,75,18,4],[31,1,18,4],[1,31,4,18],[75,31,4,18]],\n      \"doors\": [],\n      \"window\": {\"width\":5,\"height\":6,\"sill\":1,\"gap\":8},\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[9,5,62,70],[7,7,66,66],[5,9,70,62],[31,75,18,4],[31,1,18,4],[1,31,4,18],[75,31,4,18]],\n      \"doors\": [],\n      \"window\": \"none\",\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[24,24,32,32],[15,15,12,12],[53,15,12,12],[15,53,12,12],[53,53,12,12]],\n      \"doors\": [],\n      \"window\": \"none\",\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[25,25,30,30],[16,16,10,10],[54,16,10,10],[16,54,10,10],[54,54,10,10]],\n      \"doors\": [],\n      \"window\": {\"width\":3,\"height\":6,\"sill\":1,\"gap\":4},\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\":\"pyramid\",\"pitch\":55,\"overhang\":1,\"curve\":false},\n  \"columns\": null\n}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "近方形占地",
+      "hit": true
+    },
+    {
+      "name": "中轴对称",
+      "hit": true
+    },
+    {
+      "name": "台基",
+      "hit": true
+    },
+    {
+      "name": "居中入口",
+      "hit": true
+    },
+    {
+      "name": "居中收分的上层",
+      "hit": true
+    }
+  ],
+  "durationMs": 74529,
+  "scores": {
+    "rules": 28
+  },
+  "selectedRound": 2,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 39,
+    "depth": 39,
+    "height": 39.211,
+    "area": 5855,
+    "prefabTotal": 8036,
+    "windows": 71,
+    "doors": 1
+  }
+}

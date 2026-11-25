@@ -1,0 +1,137 @@
+{
+  "name": "泰姬陵主殿",
+  "style": "european",
+  "design_notes": "双层主殿沿中轴突出南门，两翼逐段收进。以一大两小的攒尖顶近似主穹顶与两侧圆亭。",
+  "floor_height": 9,
+  "plinth": 3,
+  "floors": [
+    {
+      "blocks": [
+        [
+          16,
+          0,
+          20,
+          38
+        ],
+        [
+          5,
+          2,
+          11,
+          34
+        ],
+        [
+          36,
+          2,
+          11,
+          34
+        ],
+        [
+          0,
+          5,
+          5,
+          28
+        ],
+        [
+          47,
+          5,
+          5,
+          28
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 6
+        }
+      ],
+      "window": {
+        "width": 4,
+        "height": 6,
+        "sill": 1,
+        "gap": 6
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          16,
+          0,
+          20,
+          38
+        ],
+        [
+          5,
+          2,
+          11,
+          34
+        ],
+        [
+          36,
+          2,
+          11,
+          34
+        ],
+        [
+          0,
+          5,
+          5,
+          28
+        ],
+        [
+          47,
+          5,
+          5,
+          28
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 5,
+        "height": 7,
+        "sill": 1,
+        "gap": 6
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          16,
+          9,
+          20,
+          20
+        ],
+        [
+          8,
+          19,
+          8,
+          8
+        ],
+        [
+          36,
+          19,
+          8,
+          8
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 2,
+        "height": 5,
+        "sill": 2,
+        "gap": 2
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "pyramid",
+    "pitch": 52,
+    "overhang": 1,
+    "curve": false
+  },
+  "columns": null
+}

@@ -1,0 +1,113 @@
+{
+  "name": "姬路城大天守",
+  "style": "japanese",
+  "design_notes": "按外观五重塑形，各重逐级收分，以深挑腰檐、疏排小窗和顶层入母屋顶还原白鹭城轮廓。",
+  "floor_height": 9,
+  "plinth": 3,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          48,
+          38
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "W",
+          "at": 0.25,
+          "width": 3
+        }
+      ],
+      "window": {
+        "width": 2,
+        "height": 3,
+        "sill": 3,
+        "gap": 5
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          2,
+          2,
+          44,
+          34
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 2,
+        "height": 3,
+        "sill": 3,
+        "gap": 5
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          6,
+          5,
+          36,
+          28
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 2,
+        "height": 3,
+        "sill": 3,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          10,
+          8,
+          28,
+          22
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 2,
+        "height": 3,
+        "sill": 3,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          13,
+          11,
+          22,
+          16
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 3
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "xieshan",
+    "pitch": 30,
+    "overhang": 4,
+    "curve": true
+  },
+  "columns": null
+}

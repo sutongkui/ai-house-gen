@@ -1,0 +1,65 @@
+{
+  "task": "M01",
+  "model": "hy4",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 4304,
+      "format": 4,
+      "errors": [
+        {
+          "code": "E_DOOR_NOT_EXTERIOR",
+          "hard": false,
+          "msg": "第1层 门#0（block1 南侧 at=0.5） 所在位置不是外墙（被同层其他矩形遮挡），请换一条外露的边或调整 at"
+        },
+        {
+          "code": "E_NO_ENTRANCE",
+          "hard": false,
+          "msg": "一层没有有效的入户门：至少需要一扇落在外墙上的门"
+        }
+      ],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 3482,
+        "completion_tokens": 207,
+        "total_tokens": 3689
+      },
+      "raw": "{\"name\":\"古典对称白宫式府邸\",\"style\":\"european\",\"design_notes\":\"图中为白色新古典两层主楼，中央三角山花柱廊，左右对称竖窗，平女儿墙\",\"floor_height\":7,\"plinth\":1,\"floors\":[{\"blocks\":[[0,0,48,22],[16,0,16,4]],\"doors\":[{\"block\":1,\"side\":\"S\",\"at\":0.5,\"width\":4}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":5},\"eave\":false},{\"blocks\":[[0,0,48,22]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":5},\"eave\":false}],\"roof\":{\"type\":\"flat\",\"pitch\":0,\"overhang\":1,\"curve\":false},\"columns\":{\"side\":\"S\",\"spacing\":7,\"offset\":3}}"
+    },
+    {
+      "round": 2,
+      "durationMs": 4132,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 3812,
+        "completion_tokens": 198,
+        "total_tokens": 4010,
+        "prompt_tokens_details": {
+          "cached_tokens": 3392
+        }
+      },
+      "raw": "{\"name\":\"古典对称白宫式府邸\",\"style\":\"european\",\"design_notes\":\"白色新古典两层主楼，中央柱廊与三角山花意象，左右对称竖窗和平女儿墙\",\"floor_height\":7,\"plinth\":1,\"floors\":[{\"blocks\":[[0,0,48,22]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":4}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":5},\"eave\":false},{\"blocks\":[[0,0,48,22]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":5},\"eave\":false}],\"roof\":{\"type\":\"flat\",\"pitch\":0,\"overhang\":1,\"curve\":false},\"columns\":{\"side\":\"S\",\"spacing\":7,\"offset\":3}}"
+    }
+  ],
+  "status": "待评分",
+  "checks": [],
+  "durationMs": 8437,
+  "scores": {
+    "rules": 28
+  },
+  "selectedRound": 2,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 24,
+    "depth": 11,
+    "height": 8.4,
+    "area": 528,
+    "prefabTotal": 662,
+    "windows": 35,
+    "doors": 1
+  }
+}

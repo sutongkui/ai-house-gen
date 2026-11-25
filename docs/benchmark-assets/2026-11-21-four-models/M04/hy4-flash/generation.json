@@ -1,0 +1,38 @@
+{
+  "task": "M04",
+  "model": "hy4-flash",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 3071,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 3482,
+        "completion_tokens": 188,
+        "total_tokens": 3670
+      },
+      "raw": "{\"name\":\"穹顶纪念建筑\",\"style\":\"european\",\"design_notes\":\"参考图读出中轴对称主体、中央大穹顶、两侧小穹顶与尖塔，正面拱门开口\",\"floor_height\":8,\"plinth\":2,\"floors\":[{\"blocks\":[[0,0,46,30]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":6}],\"window\":{\"width\":3,\"height\":5,\"sill\":1,\"gap\":4},\"eave\":false},{\"blocks\":[[6,4,34,22]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":5},\"eave\":false}],\"roof\":{\"type\":\"pyramid\",\"pitch\":45,\"overhang\":2,\"curve\":false},\"columns\":null}"
+    }
+  ],
+  "status": "待评分",
+  "checks": [],
+  "durationMs": 3072,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 23,
+    "depth": 15,
+    "height": 14.5,
+    "area": 532,
+    "prefabTotal": 833,
+    "windows": 32,
+    "doors": 1
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": "T05",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 16737,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 13984
+      },
+      "raw": "{\n  \"name\": \"四庭日式民宿\",\n  \"style\": \"japanese\",\n  \"design_notes\": \"四翼单层房屋围合一座露天内院，西翼正中入户，各翼向院内开门，屋面采用低坡四坡顶。\",\n  \"floor_height\": 6,\n  \"plinth\": 1,\n  \"floors\": [\n    {\n      \"blocks\": [[0, 0, 32, 8], [0, 22, 32, 8], [0, 8, 8, 14], [24, 8, 8, 14]],\n      \"doors\": [\n        {\"block\": 2, \"side\": \"W\", \"at\": 0.5, \"width\": 3},\n        {\"block\": 2, \"side\": \"E\", \"at\": 0.5, \"width\": 3},\n        {\"block\": 0, \"side\": \"S\", \"at\": 0.5, \"width\": 3},\n        {\"block\": 1, \"side\": \"N\", \"at\": 0.5, \"width\": 3},\n        {\"block\": 3, \"side\": \"W\", \"at\": 0.5, \"width\": 3}\n      ],\n      \"window\": {\"width\": 4, \"height\": 4, \"sill\": 1, \"gap\": 3},\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\": \"hip\", \"pitch\": 27, \"overhang\": 3, \"curve\": true},\n  \"columns\": null\n}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "日式",
+      "hit": true
+    },
+    {
+      "name": "单层",
+      "hit": true
+    },
+    {
+      "name": "围合内院",
+      "hit": true
+    },
+    {
+      "name": "西侧入户",
+      "hit": true
+    },
+    {
+      "name": "四坡顶",
+      "hit": true
+    }
+  ],
+  "durationMs": 16737,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 16,
+    "depth": 15,
+    "height": 4.519,
+    "area": 184,
+    "prefabTotal": 280,
+    "windows": 19,
+    "doors": 5
+  }
+}

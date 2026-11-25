@@ -1,0 +1,99 @@
+{
+  "name": "白宫式古典官邸",
+  "style": "european",
+  "design_notes": "两层横向对称展开，南面中央入口前设柱廊，以浅双坡屋顶形成三角山花，两翼竖窗上下对齐。",
+  "floor_height": 9,
+  "plinth": 1,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          78,
+          16
+        ],
+        [
+          0,
+          16,
+          26,
+          23
+        ],
+        [
+          26,
+          16,
+          26,
+          28
+        ],
+        [
+          52,
+          16,
+          26,
+          23
+        ]
+      ],
+      "doors": [
+        {
+          "block": 2,
+          "side": "S",
+          "at": 0.5,
+          "width": 3
+        }
+      ],
+      "window": {
+        "width": 2,
+        "height": 5,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          78,
+          16
+        ],
+        [
+          0,
+          16,
+          26,
+          23
+        ],
+        [
+          26,
+          16,
+          26,
+          28
+        ],
+        [
+          52,
+          16,
+          26,
+          23
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 2,
+        "height": 5,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "gable",
+    "pitch": 23,
+    "overhang": 1,
+    "curve": false
+  },
+  "columns": {
+    "side": "S",
+    "spacing": 8,
+    "offset": 3
+  }
+}

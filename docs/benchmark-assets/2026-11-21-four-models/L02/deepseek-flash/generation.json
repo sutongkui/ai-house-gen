@@ -1,0 +1,67 @@
+{
+  "task": "L02",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 9852,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1826,
+        "completion_tokens": 1635,
+        "total_tokens": 3461,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1315
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 162
+      },
+      "raw": "{\"name\":\"姬路城大天守\",\"style\":\"japanese\",\"design_notes\":\"五层逐层收分，白色灰泥墙配歇山起翘屋顶和层层腰檐，重现姬路城大天守的纤秀轮廓\",\"floor_height\":6,\"plinth\":1,\"floors\":[{\"blocks\":[[0,0,32,24]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":4}],\"window\":{\"width\":4,\"height\":3,\"sill\":1,\"gap\":6},\"eave\":true},{\"blocks\":[[2,1,28,22]],\"doors\":[],\"window\":{\"width\":4,\"height\":3,\"sill\":1,\"gap\":6},\"eave\":true},{\"blocks\":[[4,2,24,20]],\"doors\":[],\"window\":{\"width\":4,\"height\":3,\"sill\":1,\"gap\":6},\"eave\":true},{\"blocks\":[[6,4,20,16]],\"doors\":[],\"window\":{\"width\":4,\"height\":3,\"sill\":1,\"gap\":5},\"eave\":true},{\"blocks\":[[8,6,16,12]],\"doors\":[],\"window\":{\"width\":3,\"height\":3,\"sill\":1,\"gap\":5},\"eave\":false}],\"roof\":{\"type\":\"xieshan\",\"pitch\":30,\"overhang\":3,\"curve\":true},\"columns\":null}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "日式",
+      "hit": true
+    },
+    {
+      "name": "至少三层",
+      "hit": true
+    },
+    {
+      "name": "向上收分",
+      "hit": true
+    },
+    {
+      "name": "坡顶",
+      "hit": true
+    },
+    {
+      "name": "下层腰檐",
+      "hit": true
+    }
+  ],
+  "durationMs": 9852,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 16,
+    "depth": 12,
+    "height": 17.232,
+    "area": 594,
+    "prefabTotal": 1093,
+    "windows": 41,
+    "doors": 1
+  }
+}

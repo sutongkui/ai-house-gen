@@ -1,0 +1,11 @@
+{
+  "rules": 28,
+  "photoDimensions": {
+    "silhouette": 18.75,
+    "massing": 6.25,
+    "facade": 10
+  },
+  "photo": 35,
+  "imageTotal": 63,
+  "status": "部分完成"
+}

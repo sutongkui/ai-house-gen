@@ -1,0 +1,11 @@
+{
+  "id": "C",
+  "landmark": {
+    "silhouette": 2,
+    "massing": 0,
+    "roof": 2,
+    "facade": 1,
+    "signature": 1
+  },
+  "reason": "浅色矩形体进深较浅，屋顶水平。底层双扇门居中，但多层窗列主导立面，门两侧没有独立可辨的厚墩体量。"
+}

@@ -1,0 +1,191 @@
+{
+  "name": "比萨斜塔",
+  "style": "european",
+  "design_notes": "用折角平面近似圆塔，西侧逐层收进表现右倾轮廓。连续腰檐分隔密排的竖窗，窄塔冠以平顶收束。",
+  "floor_height": 9,
+  "plinth": 0,
+  "floors": [
+    {
+      "blocks": [
+        [
+          3,
+          0,
+          18,
+          4
+        ],
+        [
+          0,
+          4,
+          24,
+          12
+        ],
+        [
+          3,
+          16,
+          18,
+          4
+        ]
+      ],
+      "doors": [
+        {
+          "block": 2,
+          "side": "S",
+          "at": 0.5,
+          "width": 4
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 7,
+        "sill": 1,
+        "gap": 2
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          4,
+          0,
+          17,
+          4
+        ],
+        [
+          1,
+          4,
+          23,
+          12
+        ],
+        [
+          4,
+          16,
+          17,
+          4
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 2,
+        "height": 6,
+        "sill": 1,
+        "gap": 2
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          5,
+          0,
+          16,
+          4
+        ],
+        [
+          2,
+          4,
+          22,
+          12
+        ],
+        [
+          5,
+          16,
+          16,
+          4
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 2,
+        "height": 6,
+        "sill": 1,
+        "gap": 2
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          6,
+          1,
+          15,
+          4
+        ],
+        [
+          3,
+          5,
+          21,
+          10
+        ],
+        [
+          6,
+          15,
+          15,
+          4
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 2,
+        "height": 6,
+        "sill": 1,
+        "gap": 1
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          7,
+          1,
+          14,
+          4
+        ],
+        [
+          4,
+          5,
+          20,
+          10
+        ],
+        [
+          7,
+          15,
+          14,
+          4
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 2,
+        "height": 6,
+        "sill": 1,
+        "gap": 1
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          8,
+          5,
+          14,
+          10
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 5,
+        "sill": 2,
+        "gap": 3
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "flat",
+    "pitch": 15,
+    "overhang": 1,
+    "curve": false
+  },
+  "columns": null
+}

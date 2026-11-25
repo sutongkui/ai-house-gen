@@ -1,0 +1,119 @@
+{
+  "name": "巴黎凯旋门",
+  "style": "european",
+  "design_notes": "五层等高石砌体块还原凯旋门主体，南面正中开大拱门贯通南北，阁楼层竖向小窗，平顶女儿墙",
+  "floor_height": 8,
+  "plinth": 1,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          36,
+          16
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 6
+        },
+        {
+          "block": 0,
+          "side": "N",
+          "at": 0.5,
+          "width": 6
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 11
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          36,
+          16
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 11
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          36,
+          16
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 11
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          36,
+          16
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 2,
+        "height": 3,
+        "sill": 3,
+        "gap": 14
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          36,
+          16
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 2,
+        "height": 2,
+        "sill": 4,
+        "gap": 14
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "flat",
+    "pitch": 0,
+    "overhang": 0,
+    "curve": false
+  },
+  "columns": null
+}

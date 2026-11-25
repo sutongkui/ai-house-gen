@@ -1,0 +1,46 @@
+{
+  "task": "M01",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 22886,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 2861,
+        "completion_tokens": 3321,
+        "total_tokens": 6182,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 3093
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 1069
+      },
+      "raw": "{\"name\":\"白宫式新古典府邸\",\"style\":\"european\",\"design_notes\":\"参考图为白宫北立面：两层对称、中央凸出门廊、平屋顶女儿墙、竖窗；山花用中央体块近似\",\"floor_height\":7,\"plinth\":1,\"floors\":[{\"blocks\":[[0,0,64,30],[24,30,16,4]],\"doors\":[{\"block\":1,\"side\":\"S\",\"at\":0.5,\"width\":4}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":3},\"eave\":false},{\"blocks\":[[0,0,64,30],[24,30,16,4]],\"doors\":[{\"block\":1,\"side\":\"S\",\"at\":0.5,\"width\":3}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":3},\"eave\":false}],\"roof\":{\"type\":\"flat\",\"pitch\":0,\"overhang\":0,\"curve\":false},\"columns\":null}"
+    }
+  ],
+  "status": "待评分",
+  "checks": [],
+  "durationMs": 22887,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 32,
+    "depth": 17,
+    "height": 8.4,
+    "area": 992,
+    "prefabTotal": 1207,
+    "windows": 57,
+    "doors": 2
+  }
+}

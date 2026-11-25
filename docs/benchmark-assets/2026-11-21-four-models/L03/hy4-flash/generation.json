@@ -1,0 +1,59 @@
+{
+  "task": "L03",
+  "model": "hy4-flash",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 2028,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1798,
+        "completion_tokens": 204,
+        "total_tokens": 2002
+      },
+      "raw": "{\"name\":\"白金汉宫东立面主体\",\"style\":\"european\",\"design_notes\":\"新古典对称主体，中央三开间凸出，南向正门居中，坡屋顶与竖向窗\",\"floor_height\":7,\"plinth\":1,\"floors\":[{\"blocks\":[[0,0,56,20],[20,20,16,6]],\"doors\":[{\"block\":1,\"side\":\"S\",\"at\":0.5,\"width\":4}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":3},\"eave\":false},{\"blocks\":[[0,0,56,20],[20,20,16,6]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":3},\"eave\":true}],\"roof\":{\"type\":\"hip\",\"pitch\":38,\"overhang\":2,\"curve\":false},\"columns\":null}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "欧式",
+      "hit": true
+    },
+    {
+      "name": "横向展开",
+      "hit": true
+    },
+    {
+      "name": "中轴对称",
+      "hit": true
+    },
+    {
+      "name": "居中入口",
+      "hit": true
+    },
+    {
+      "name": "重复偏竖窗",
+      "hit": true
+    }
+  ],
+  "durationMs": 2028,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 28,
+    "depth": 13,
+    "height": 11.406,
+    "area": 608,
+    "prefabTotal": 789,
+    "windows": 48,
+    "doors": 1
+  }
+}

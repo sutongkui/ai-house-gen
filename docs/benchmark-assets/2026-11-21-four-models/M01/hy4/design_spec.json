@@ -1,0 +1,63 @@
+{
+  "name": "古典对称白宫式府邸",
+  "style": "european",
+  "design_notes": "白色新古典两层主楼，中央柱廊与三角山花意象，左右对称竖窗和平女儿墙",
+  "floor_height": 7,
+  "plinth": 1,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          48,
+          22
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 4
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 5
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          48,
+          22
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 5
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "flat",
+    "pitch": 0,
+    "overhang": 1,
+    "curve": false
+  },
+  "columns": {
+    "side": "S",
+    "spacing": 7,
+    "offset": 3
+  }
+}

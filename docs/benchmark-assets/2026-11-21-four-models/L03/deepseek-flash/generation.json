@@ -1,0 +1,161 @@
+{
+  "task": "L03",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 12079,
+      "format": 4,
+      "errors": [
+        {
+          "code": "E_BLOCKS",
+          "msg": "第1层 block0 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第1层 block1 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第2层 block0 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第2层 block1 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第3层 block0 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第3层 block1 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第4层 block0 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第4层 block1 超出 0~80 格的场地范围",
+          "hard": true
+        }
+      ],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1825,
+        "completion_tokens": 1673,
+        "total_tokens": 3498,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1346
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 161
+      },
+      "raw": "{\"name\":\"白金汉宫东立面主体\",\"style\":\"european\",\"design_notes\":\"读图：新古典主义对称石构宫殿，东立面中央凸出门廊，横向三分五段，竖向四层；平屋顶女儿墙，竖向长窗，石基座\",\"floor_height\":7,\"plinth\":2,\"floors\":[{\"blocks\":[[0,6,140,40],[55,0,30,6]],\"doors\":[{\"block\":1,\"side\":\"S\",\"at\":0.5,\"width\":5}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":false},{\"blocks\":[[0,6,140,40],[55,0,30,6]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":false},{\"blocks\":[[0,6,140,40],[55,0,30,6]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":false},{\"blocks\":[[0,6,140,40],[55,0,30,6]],\"doors\":[],\"window\":{\"width\":3,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"flat\",\"pitch\":0,\"overhang\":0,\"curve\":false},\"columns\":{\"side\":\"S\",\"spacing\":7,\"offset\":3}}"
+    },
+    {
+      "round": 2,
+      "durationMs": 3373,
+      "format": 4,
+      "errors": [
+        {
+          "code": "E_DOOR_NOT_EXTERIOR",
+          "hard": false,
+          "msg": "第1层 门#0（block1 南侧 at=0.5） 所在位置不是外墙（被同层其他矩形遮挡），请换一条外露的边或调整 at"
+        },
+        {
+          "code": "E_NO_ENTRANCE",
+          "hard": false,
+          "msg": "一层没有有效的入户门：至少需要一扇落在外墙上的门"
+        }
+      ],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 2389,
+        "completion_tokens": 521,
+        "total_tokens": 2910,
+        "prompt_tokens_details": {
+          "cached_tokens": 1792
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 194
+        },
+        "prompt_cache_hit_tokens": 1792,
+        "prompt_cache_miss_tokens": 597
+      },
+      "raw": "{\"name\":\"白金汉宫东立面主体\",\"style\":\"european\",\"design_notes\":\"读图：新古典主义对称石构宫殿，东立面中央凸出门廊，横向三分五段，竖向四层；平屋顶女儿墙，竖向长窗，石基座\",\"floor_height\":7,\"plinth\":2,\"floors\":[{\"blocks\":[[4,10,72,30],[34,4,12,6]],\"doors\":[{\"block\":1,\"side\":\"S\",\"at\":0.5,\"width\":5}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":false},{\"blocks\":[[4,10,72,30],[34,4,12,6]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":false},{\"blocks\":[[4,10,72,30],[34,4,12,6]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":false},{\"blocks\":[[4,10,72,30],[34,4,12,6]],\"doors\":[],\"window\":{\"width\":3,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"flat\",\"pitch\":0,\"overhang\":0,\"curve\":false},\"columns\":{\"side\":\"S\",\"spacing\":7,\"offset\":3}}"
+    },
+    {
+      "round": 3,
+      "durationMs": 5065,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 2836,
+        "completion_tokens": 857,
+        "total_tokens": 3693,
+        "prompt_tokens_details": {
+          "cached_tokens": 2304
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 530
+        },
+        "prompt_cache_hit_tokens": 2304,
+        "prompt_cache_miss_tokens": 532
+      },
+      "raw": "{\"name\":\"白金汉宫东立面主体\",\"style\":\"european\",\"design_notes\":\"读图：新古典主义对称石构宫殿，东立面横向三分五段、竖向四层，中央凸出门廊，平屋顶女儿墙，竖向长窗，石基座\",\"floor_height\":7,\"plinth\":2,\"floors\":[{\"blocks\":[[4,10,72,30],[34,4,12,6]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":5}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":false},{\"blocks\":[[4,10,72,30],[34,4,12,6]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":false},{\"blocks\":[[4,10,72,30],[34,4,12,6]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":false},{\"blocks\":[[4,10,72,30],[34,4,12,6]],\"doors\":[],\"window\":{\"width\":3,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"flat\",\"pitch\":0,\"overhang\":0,\"curve\":false},\"columns\":{\"side\":\"S\",\"spacing\":7,\"offset\":3}}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "欧式",
+      "hit": true
+    },
+    {
+      "name": "横向展开",
+      "hit": true
+    },
+    {
+      "name": "中轴对称",
+      "hit": true
+    },
+    {
+      "name": "居中入口",
+      "hit": true
+    },
+    {
+      "name": "重复偏竖窗",
+      "hit": true
+    }
+  ],
+  "durationMs": 20517,
+  "scores": {
+    "rules": 26
+  },
+  "selectedRound": 3,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 36,
+    "depth": 18,
+    "height": 15.9,
+    "area": 2232,
+    "prefabTotal": 2604,
+    "windows": 118,
+    "doors": 1
+  }
+}

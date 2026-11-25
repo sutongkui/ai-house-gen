@@ -1,0 +1,82 @@
+{
+  "name": "太和殿",
+  "style": "chinese",
+  "design_notes": "按重檐庑殿式宫殿还原：面阔十一开间、南面居中三门，三层台基，下层腰檐、上层收进成上檐，四坡顶起翘",
+  "floor_height": 8,
+  "plinth": 3,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          80,
+          44
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 6
+        },
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.28,
+          "width": 4
+        },
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.72,
+          "width": 4
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 8
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          3,
+          3,
+          74,
+          38
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 4
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 3,
+        "sill": 2,
+        "gap": 8
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "hip",
+    "pitch": 30,
+    "overhang": 4,
+    "curve": true
+  },
+  "columns": {
+    "side": "S",
+    "spacing": 11,
+    "offset": 3
+  }
+}

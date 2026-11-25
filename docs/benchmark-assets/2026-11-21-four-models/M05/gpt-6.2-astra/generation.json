@@ -1,0 +1,36 @@
+{
+  "task": "M05",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 35355,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 16454
+      },
+      "raw": "{\n  \"name\": \"巴黎凯旋门\",\n  \"style\": \"european\",\n  \"design_notes\": \"两侧厚墩对称夹住内凹门洞，南北对开模拟中央拱道；腰檐和带女儿墙的平顶勾勒横向轮廓。\",\n  \"floor_height\": 9,\n  \"plinth\": 0,\n  \"floors\": [\n    {\n      \"blocks\": [[0, 0, 6, 12], [6, 1, 8, 10], [14, 0, 6, 12]],\n      \"doors\": [\n        {\"block\": 1, \"side\": \"S\", \"at\": 0.5, \"width\": 6},\n        {\"block\": 1, \"side\": \"N\", \"at\": 0.5, \"width\": 6}\n      ],\n      \"window\": \"none\",\n      \"eave\": true\n    },\n    {\n      \"blocks\": [[0, 1, 20, 10]],\n      \"doors\": [],\n      \"window\": \"none\",\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\": \"flat\", \"pitch\": 15, \"overhang\": 1, \"curve\": false},\n  \"columns\": null\n}"
+    }
+  ],
+  "status": "待评分",
+  "checks": [],
+  "durationMs": 35355,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 10,
+    "depth": 6,
+    "height": 9.9,
+    "area": 106,
+    "prefabTotal": 219,
+    "windows": 0,
+    "doors": 2
+  }
+}

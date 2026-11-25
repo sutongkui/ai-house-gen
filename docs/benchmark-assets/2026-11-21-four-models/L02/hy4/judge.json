@@ -1,0 +1,11 @@
+{
+  "id": "C",
+  "landmark": {
+    "silhouette": 2,
+    "massing": 2,
+    "roof": 1,
+    "facade": 2,
+    "signature": 2
+  },
+  "reason": "五层白墙体量向上收窄，连续深色挑檐勾勒出城堡塔楼轮廓，最上层屋顶坡度较缓。"
+}

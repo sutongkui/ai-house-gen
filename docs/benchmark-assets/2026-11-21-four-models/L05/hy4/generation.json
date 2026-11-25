@@ -1,0 +1,59 @@
+{
+  "task": "L05",
+  "model": "hy4",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 3024,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1797,
+        "completion_tokens": 208,
+        "total_tokens": 2005
+      },
+      "raw": "{\"name\":\"巴黎凯旋门主体\",\"style\":\"european\",\"design_notes\":\"按纪念性拱门体量做厚墙方主体，四面深拱洞，以平顶女儿墙概括\",\"floor_height\":9,\"plinth\":1,\"floors\":[{\"blocks\":[[0,0,28,20],[6,20,16,6]],\"doors\":[{\"block\":1,\"side\":\"S\",\"at\":0.5,\"width\":6},{\"block\":0,\"side\":\"N\",\"at\":0.5,\"width\":6},{\"block\":0,\"side\":\"E\",\"at\":0.5,\"width\":6},{\"block\":0,\"side\":\"W\",\"at\":0.5,\"width\":6}],\"window\":{\"width\":2,\"height\":4,\"sill\":2,\"gap\":5},\"eave\":false}],\"roof\":{\"type\":\"flat\",\"pitch\":0,\"overhang\":1,\"curve\":false},\"columns\":null}"
+    }
+  ],
+  "status": "部分完成",
+  "checks": [
+    {
+      "name": "矩形占地",
+      "hit": false
+    },
+    {
+      "name": "宽门楼",
+      "hit": false
+    },
+    {
+      "name": "中轴对称",
+      "hit": true
+    },
+    {
+      "name": "平顶",
+      "hit": true
+    },
+    {
+      "name": "居中宽门洞近似",
+      "hit": true
+    }
+  ],
+  "durationMs": 3024,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 14,
+    "depth": 13,
+    "height": 5.9,
+    "area": 164,
+    "prefabTotal": 234,
+    "windows": 10,
+    "doors": 4
+  }
+}

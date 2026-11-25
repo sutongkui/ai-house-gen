@@ -1,0 +1,36 @@
+{
+  "name": "单层北欧无窗小屋",
+  "style": "nordic",
+  "design_notes": "矩形小体量，北向入户，双坡屋顶，整栋不开窗",
+  "floor_height": 6,
+  "plinth": 1,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          24,
+          16
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "N",
+          "at": 0.5,
+          "width": 3
+        }
+      ],
+      "window": "none",
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "gable",
+    "pitch": 45,
+    "overhang": 1,
+    "curve": false
+  },
+  "columns": null
+}

@@ -1,0 +1,67 @@
+{
+  "name": "巴黎凯旋门",
+  "style": "european",
+  "design_notes": "两侧厚墩对称夹住内凹门洞，南北对开模拟中央拱道；腰檐和带女儿墙的平顶勾勒横向轮廓。",
+  "floor_height": 9,
+  "plinth": 0,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          6,
+          12
+        ],
+        [
+          6,
+          1,
+          8,
+          10
+        ],
+        [
+          14,
+          0,
+          6,
+          12
+        ]
+      ],
+      "doors": [
+        {
+          "block": 1,
+          "side": "S",
+          "at": 0.5,
+          "width": 6
+        },
+        {
+          "block": 1,
+          "side": "N",
+          "at": 0.5,
+          "width": 6
+        }
+      ],
+      "window": "none",
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          0,
+          1,
+          20,
+          10
+        ]
+      ],
+      "doors": [],
+      "window": "none",
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "flat",
+    "pitch": 15,
+    "overhang": 1,
+    "curve": false
+  },
+  "columns": null
+}

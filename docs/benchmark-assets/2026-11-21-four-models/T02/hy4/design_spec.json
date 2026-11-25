@@ -1,0 +1,83 @@
+{
+  "name": "三层中式楼阁",
+  "style": "chinese",
+  "design_notes": "三开间中轴对称，层层收进成露台，歇山起翘顶",
+  "floor_height": 7,
+  "plinth": 2,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          28,
+          20
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 4
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          2,
+          2,
+          24,
+          16
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 3
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          6,
+          4,
+          16,
+          12
+        ]
+      ],
+      "doors": [],
+      "window": "none",
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "xieshan",
+    "pitch": 30,
+    "overhang": 3,
+    "curve": true
+  },
+  "columns": {
+    "side": "S",
+    "spacing": 7,
+    "offset": 3
+  }
+}

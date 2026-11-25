@@ -1,0 +1,36 @@
+{
+  "name": "北欧无窗小屋",
+  "style": "nordic",
+  "design_notes": "单层矩形平面，北墙中央设门，四面无窗，双坡屋顶采用45度坡角和短出檐。",
+  "floor_height": 6,
+  "plinth": 1,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          20,
+          14
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "N",
+          "at": 0.5,
+          "width": 2
+        }
+      ],
+      "window": "none",
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "gable",
+    "pitch": 45,
+    "overhang": 1,
+    "curve": false
+  },
+  "columns": null
+}

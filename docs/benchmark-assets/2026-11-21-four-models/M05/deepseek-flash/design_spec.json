@@ -1,0 +1,59 @@
+{
+  "name": "凯旋门式纪念拱门",
+  "style": "european",
+  "design_notes": "读图得：巴黎凯旋门，单一厚重体块，正面中央大拱门，平顶带檐口和女墙；用两层同体量叠加表现通高体量，上层略微收进做出檐口线",
+  "floor_height": 9,
+  "plinth": 2,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          32,
+          18
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 6
+        }
+      ],
+      "window": {
+        "width": 4,
+        "height": 4,
+        "sill": 4,
+        "gap": 4
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          1,
+          1,
+          30,
+          16
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 4,
+        "height": 3,
+        "sill": 5,
+        "gap": 4
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "flat",
+    "pitch": 0,
+    "overhang": 1,
+    "curve": false
+  },
+  "columns": null
+}

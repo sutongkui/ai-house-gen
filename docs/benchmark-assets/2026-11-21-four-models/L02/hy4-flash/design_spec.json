@@ -1,0 +1,113 @@
+{
+  "name": "姬路城大天守主体",
+  "style": "japanese",
+  "design_notes": "五层渐收白城体量，南向入户，层腰檐与飞翘四坡顶",
+  "floor_height": 6,
+  "plinth": 2,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          42,
+          30
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 4
+        }
+      ],
+      "window": {
+        "width": 4,
+        "height": 3,
+        "sill": 1,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          3,
+          2,
+          36,
+          25
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 4,
+        "height": 3,
+        "sill": 1,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          6,
+          4,
+          30,
+          20
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 4,
+        "height": 3,
+        "sill": 1,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          9,
+          6,
+          24,
+          16
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 4,
+        "height": 3,
+        "sill": 1,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          12,
+          8,
+          18,
+          12
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 4,
+        "height": 3,
+        "sill": 1,
+        "gap": 4
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "hip",
+    "pitch": 28,
+    "overhang": 3,
+    "curve": true
+  },
+  "columns": null
+}

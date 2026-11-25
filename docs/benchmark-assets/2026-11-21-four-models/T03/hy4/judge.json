@@ -1,0 +1,17 @@
+{
+  "id": "C",
+  "seen": {
+    "literal": "单层，东翼向北退后，南面主屋四窗、东翼两窗，屋脊平行",
+    "subject": "带退后侧翼的独立低层房屋",
+    "usage": "可能为住宅",
+    "style": "传统乡村式，高低双坡屋顶",
+    "scene": "浅色网格地面上的建筑模型"
+  },
+  "beauty": {
+    "proportion": 4,
+    "facade_rhythm": 4,
+    "roof_harmony": 5,
+    "style_coherence": 5
+  },
+  "reason": "主屋四窗的横向节奏延续到东翼，两道平行屋脊随体量由高到低，墙面与窗套做法一致。"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "A",
+  "landmark": {
+    "silhouette": 1,
+    "massing": 1,
+    "roof": 1,
+    "facade": 1,
+    "signature": 1
+  },
+  "reason": "主体宽扁，宽露台上的中央亭体偏小。屋顶居中但起高有限，正立面对称，入口居中，台基较低。"
+}

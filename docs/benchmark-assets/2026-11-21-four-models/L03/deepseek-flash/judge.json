@@ -1,0 +1,11 @@
+{
+  "id": "A",
+  "landmark": {
+    "silhouette": 2,
+    "massing": 1,
+    "roof": 0,
+    "facade": 2,
+    "signature": 1
+  },
+  "reason": "四层浅色立面横向展开，竖窗成排对称排列。主体基本齐平，中央台阶和双门标出中轴，平屋顶没有中央山花式构件。"
+}

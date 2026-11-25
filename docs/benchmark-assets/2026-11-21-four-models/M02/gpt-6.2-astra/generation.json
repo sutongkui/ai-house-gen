@@ -1,0 +1,36 @@
+{
+  "task": "M02",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 25934,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 16438
+      },
+      "raw": "{\n  \"name\": \"比萨斜塔\",\n  \"style\": \"european\",\n  \"design_notes\": \"用折角平面近似圆塔，西侧逐层收进表现右倾轮廓。连续腰檐分隔密排的竖窗，窄塔冠以平顶收束。\",\n  \"floor_height\": 9,\n  \"plinth\": 0,\n  \"floors\": [\n    {\n      \"blocks\": [[3, 0, 18, 4], [0, 4, 24, 12], [3, 16, 18, 4]],\n      \"doors\": [{\"block\": 2, \"side\": \"S\", \"at\": 0.5, \"width\": 4}],\n      \"window\": {\"width\": 3, \"height\": 7, \"sill\": 1, \"gap\": 2},\n      \"eave\": true\n    },\n    {\n      \"blocks\": [[4, 0, 17, 4], [1, 4, 23, 12], [4, 16, 17, 4]],\n      \"doors\": [],\n      \"window\": {\"width\": 2, \"height\": 6, \"sill\": 1, \"gap\": 2},\n      \"eave\": true\n    },\n    {\n      \"blocks\": [[5, 0, 16, 4], [2, 4, 22, 12], [5, 16, 16, 4]],\n      \"doors\": [],\n      \"window\": {\"width\": 2, \"height\": 6, \"sill\": 1, \"gap\": 2},\n      \"eave\": true\n    },\n    {\n      \"blocks\": [[6, 1, 15, 4], [3, 5, 21, 10], [6, 15, 15, 4]],\n      \"doors\": [],\n      \"window\": {\"width\": 2, \"height\": 6, \"sill\": 1, \"gap\": 1},\n      \"eave\": true\n    },\n    {\n      \"blocks\": [[7, 1, 14, 4], [4, 5, 20, 10], [7, 15, 14, 4]],\n      \"doors\": [],\n      \"window\": {\"width\": 2, \"height\": 6, \"sill\": 1, \"gap\": 1},\n      \"eave\": true\n    },\n    {\n      \"blocks\": [[8, 5, 14, 10]],\n      \"doors\": [],\n      \"window\": {\"width\": 3, \"height\": 5, \"sill\": 2, \"gap\": 3},\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\": \"flat\", \"pitch\": 15, \"overhang\": 1, \"curve\": false},\n  \"columns\": null\n}"
+    }
+  ],
+  "status": "待评分",
+  "checks": [],
+  "durationMs": 25935,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 12,
+    "depth": 10,
+    "height": 27.9,
+    "area": 505,
+    "prefabTotal": 1169,
+    "windows": 87,
+    "doors": 1
+  }
+}

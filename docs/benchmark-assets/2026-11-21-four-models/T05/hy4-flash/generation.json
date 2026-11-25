@@ -1,0 +1,59 @@
+{
+  "task": "T05",
+  "model": "hy4-flash",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 2214,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1809,
+        "completion_tokens": 168,
+        "total_tokens": 1977
+      },
+      "raw": "{\"name\":\"围院日式民宿\",\"style\":\"japanese\",\"design_notes\":\"单层四坡围合布局，中央封闭露天内院，西侧居中设入口，低窗连续采光\",\"floor_height\":6,\"plinth\":1,\"floors\":[{\"blocks\":[[0,0,34,6],[0,6,6,20],[0,26,34,6],[28,6,6,20]],\"doors\":[{\"block\":1,\"side\":\"W\",\"at\":0.5,\"width\":3}],\"window\":{\"width\":5,\"height\":3,\"sill\":1,\"gap\":3},\"eave\":false}],\"roof\":{\"type\":\"hip\",\"pitch\":28,\"overhang\":3,\"curve\":true},\"columns\":null}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "日式",
+      "hit": true
+    },
+    {
+      "name": "单层",
+      "hit": true
+    },
+    {
+      "name": "围合内院",
+      "hit": true
+    },
+    {
+      "name": "西侧入户",
+      "hit": true
+    },
+    {
+      "name": "四坡顶",
+      "hit": true
+    }
+  ],
+  "durationMs": 2214,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 17,
+    "depth": 16,
+    "height": 4.298,
+    "area": 162,
+    "prefabTotal": 257,
+    "windows": 23,
+    "doors": 1
+  }
+}

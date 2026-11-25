@@ -1,0 +1,45 @@
+{
+  "name": "白宫式新古典住宅",
+  "style": "european",
+  "design_notes": "对称白色两层主体，中央柱廊与三角山花，屋顶平顶女儿墙、竖向窗",
+  "floor_height": 7,
+  "plinth": 2,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          76,
+          30
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 4
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 5
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "flat",
+    "pitch": 0,
+    "overhang": 1,
+    "curve": false
+  },
+  "columns": {
+    "side": "S",
+    "spacing": 8,
+    "offset": 4
+  }
+}

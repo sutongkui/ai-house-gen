@@ -1,0 +1,11 @@
+{
+  "id": "B",
+  "landmark": {
+    "silhouette": 2,
+    "massing": 2,
+    "roof": 2,
+    "facade": 2,
+    "signature": 2
+  },
+  "reason": "低宽主体两翼对称，浅色立面排列两层竖窗。中央入口体量前凸，独立小坡顶近似山花，与居中的双门共同突出中轴。"
+}

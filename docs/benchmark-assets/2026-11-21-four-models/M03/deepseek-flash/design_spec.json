@@ -1,0 +1,141 @@
+{
+  "name": "黄鹤楼",
+  "style": "chinese",
+  "design_notes": "五层重檐楼阁，亚字形底座，逐层收进形成平座露台，歇山攒尖金顶，翘角飞檐",
+  "floor_height": 7,
+  "plinth": 3,
+  "floors": [
+    {
+      "blocks": [
+        [
+          6,
+          6,
+          28,
+          28
+        ],
+        [
+          10,
+          34,
+          20,
+          6
+        ],
+        [
+          10,
+          0,
+          20,
+          6
+        ],
+        [
+          0,
+          10,
+          6,
+          20
+        ],
+        [
+          34,
+          10,
+          6,
+          20
+        ]
+      ],
+      "doors": [
+        {
+          "block": 1,
+          "side": "S",
+          "at": 0.5,
+          "width": 4
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          8,
+          8,
+          24,
+          24
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          10,
+          10,
+          20,
+          20
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          12,
+          12,
+          16,
+          16
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          14,
+          14,
+          12,
+          12
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "xieshan",
+    "pitch": 32,
+    "overhang": 4,
+    "curve": true
+  },
+  "columns": {
+    "side": "S",
+    "spacing": 6,
+    "offset": 3
+  }
+}

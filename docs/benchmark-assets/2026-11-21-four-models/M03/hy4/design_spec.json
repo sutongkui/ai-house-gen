@@ -1,0 +1,147 @@
+{
+  "name": "五层中式楼阁",
+  "style": "chinese",
+  "design_notes": "图中为黄鹤楼式五层攒尖楼阁，层层收进、腰檐起翘，底层南面居中开门",
+  "floor_height": 7,
+  "plinth": 2,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          42,
+          30
+        ],
+        [
+          7,
+          30,
+          28,
+          8
+        ]
+      ],
+      "doors": [
+        {
+          "block": 1,
+          "side": "S",
+          "at": 0.5,
+          "width": 6
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          4,
+          4,
+          34,
+          26
+        ],
+        [
+          10,
+          30,
+          22,
+          5
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          8,
+          8,
+          26,
+          22
+        ],
+        [
+          13,
+          30,
+          16,
+          4
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          11,
+          11,
+          20,
+          18
+        ],
+        [
+          15,
+          29,
+          12,
+          4
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 3,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          14,
+          14,
+          14,
+          14
+        ],
+        [
+          17,
+          27,
+          8,
+          4
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 3,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "xieshan",
+    "pitch": 30,
+    "overhang": 4,
+    "curve": true
+  },
+  "columns": {
+    "side": "S",
+    "spacing": 7,
+    "offset": 3
+  }
+}

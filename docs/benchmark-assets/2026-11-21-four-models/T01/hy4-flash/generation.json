@@ -1,0 +1,59 @@
+{
+  "task": "T01",
+  "model": "hy4-flash",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 4823,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1810,
+        "completion_tokens": 214,
+        "total_tokens": 2024
+      },
+      "raw": "{\"name\":\"两层南露台现代住宅\",\"style\":\"modern\",\"design_notes\":\"一层L形体块，二层北收并保留南侧露台，南面居中入户，平屋顶大窗\",\"floor_height\":6,\"plinth\":0,\"floors\":[{\"blocks\":[[0,0,28,20],[20,20,8,8]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":3}],\"window\":{\"width\":6,\"height\":4,\"sill\":1,\"gap\":3},\"eave\":false},{\"blocks\":[[2,0,24,14]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":3}],\"window\":{\"width\":6,\"height\":4,\"sill\":1,\"gap\":3},\"eave\":false}],\"roof\":{\"type\":\"flat\",\"pitch\":0,\"overhang\":0,\"curve\":false},\"columns\":null}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "现代",
+      "hit": true
+    },
+    {
+      "name": "两层",
+      "hit": true
+    },
+    {
+      "name": "平顶",
+      "hit": true
+    },
+    {
+      "name": "南侧入户",
+      "hit": true
+    },
+    {
+      "name": "南侧退台栏杆",
+      "hit": true
+    }
+  ],
+  "durationMs": 4823,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 14,
+    "depth": 14,
+    "height": 6.9,
+    "area": 240,
+    "prefabTotal": 407,
+    "windows": 16,
+    "doors": 2
+  }
+}

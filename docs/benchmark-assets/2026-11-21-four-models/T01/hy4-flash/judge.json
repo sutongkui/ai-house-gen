@@ -1,0 +1,17 @@
+{
+  "id": "B",
+  "seen": {
+    "literal": "两层平顶，东侧首层向南凸出，露台沿南、东两面转折，南向上层一窗一门",
+    "subject": "两层独立住宅式建筑",
+    "usage": "居住及露台休憩",
+    "style": "现代简约",
+    "scene": "浅色网格地面上的单体建筑"
+  },
+  "beauty": {
+    "proportion": 4,
+    "facade_rhythm": 3,
+    "roof_harmony": 5,
+    "style_coherence": 5
+  },
+  "reason": "东侧凸出体量由转折露台串联，上层窗集中在南面左侧，右侧留出较宽实墙。"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "欧式单层L形住宅",
+  "style": "european",
+  "design_notes": "东翼向南伸出，与横向主屋组成L形平面。两翼均用双坡屋顶，入户门设在东翼东墙。",
+  "floor_height": 7,
+  "plinth": 1,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          30,
+          14
+        ],
+        [
+          18,
+          14,
+          12,
+          16
+        ]
+      ],
+      "doors": [
+        {
+          "block": 1,
+          "side": "E",
+          "at": 0.5,
+          "width": 3
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "gable",
+    "pitch": 40,
+    "overhang": 1,
+    "curve": false
+  },
+  "columns": null
+}

@@ -1,0 +1,66 @@
+{
+  "name": "南露台现代住宅",
+  "style": "modern",
+  "design_notes": "南面居中入户，二层南墙向北退让3米，形成通宽的带栏杆露台，起居面以宽窗采光。",
+  "floor_height": 7,
+  "plinth": 0,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          30,
+          22
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 3
+        }
+      ],
+      "window": {
+        "width": 6,
+        "height": 5,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          30,
+          16
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 4
+        }
+      ],
+      "window": {
+        "width": 6,
+        "height": 5,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "flat",
+    "pitch": 0,
+    "overhang": 0,
+    "curve": false
+  },
+  "columns": null
+}

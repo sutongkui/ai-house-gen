@@ -1,0 +1,110 @@
+[
+  {
+    "model": "gpt-6.2-astra",
+    "label": "GPT‑6.2 Astra",
+    "counts": {
+      "成功": 13,
+      "部分完成": 2,
+      "失败": 0
+    },
+    "components": [
+      30,
+      22.833752804371365,
+      17.2,
+      23.4
+    ],
+    "imageComponents": [
+      30,
+      23.75,
+      22.5,
+      11
+    ],
+    "textTotal": 93.43375280437135,
+    "imageTotal": 87.25,
+    "total": 90.34187640218568,
+    "firstPass": 12,
+    "medianSeconds": 24.074,
+    "planned": 15
+  },
+  {
+    "model": "deepseek-flash",
+    "label": "DeepSeek Flash",
+    "counts": {
+      "成功": 11,
+      "部分完成": 4,
+      "失败": 0
+    },
+    "components": [
+      30,
+      22.780164980079647,
+      15.2,
+      22.4
+    ],
+    "imageComponents": [
+      30,
+      21.25,
+      18.75,
+      8
+    ],
+    "textTotal": 90.38016498007966,
+    "imageTotal": 78,
+    "total": 84.19008249003983,
+    "firstPass": 13,
+    "medianSeconds": 11.195,
+    "planned": 15
+  },
+  {
+    "model": "hy4",
+    "label": "混元 HY4",
+    "counts": {
+      "成功": 10,
+      "部分完成": 5,
+      "失败": 0
+    },
+    "components": [
+      30,
+      22.740912055429767,
+      17.2,
+      20.4
+    ],
+    "imageComponents": [
+      29.2,
+      17.5,
+      17.5,
+      8
+    ],
+    "textTotal": 90.34091205542975,
+    "imageTotal": 72.2,
+    "total": 81.27045602771489,
+    "firstPass": 12,
+    "medianSeconds": 3.932,
+    "planned": 15
+  },
+  {
+    "model": "hy4-flash",
+    "label": "混元 HY4 Flash",
+    "counts": {
+      "成功": 11,
+      "部分完成": 4,
+      "失败": 0
+    },
+    "components": [
+      30,
+      22.840762339088535,
+      16.6,
+      20
+    ],
+    "imageComponents": [
+      30,
+      16.25,
+      15,
+      8
+    ],
+    "textTotal": 89.44076233908854,
+    "imageTotal": 69.25,
+    "total": 79.34538116954427,
+    "firstPass": 15,
+    "medianSeconds": 2.743,
+    "planned": 15
+  }
+]

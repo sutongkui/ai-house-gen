@@ -1,0 +1,67 @@
+{
+  "task": "L04",
+  "model": "deepseek-flash",
+  "effort": "low",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 12410,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1826,
+        "completion_tokens": 1891,
+        "total_tokens": 3717,
+        "prompt_tokens_details": {
+          "cached_tokens": 1664
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1567
+        },
+        "prompt_cache_hit_tokens": 1664,
+        "prompt_cache_miss_tokens": 162
+      },
+      "raw": "{\n  \"name\": \"泰姬陵主陵\",\n  \"style\": \"european\",\n  \"design_notes\": \"方形对称主体，四角小塔与中央大穹顶，白色大理石台基抬高三层，南面居中开巨大拱门，四面竖向拱窗均布\",\n  \"floor_height\": 7,\n  \"plinth\": 3,\n  \"floors\": [\n    {\n      \"blocks\": [[0, 0, 36, 36]],\n      \"doors\": [{\"block\": 0, \"side\": \"S\", \"at\": 0.5, \"width\": 6}],\n      \"window\": {\"width\": 4, \"height\": 5, \"sill\": 1, \"gap\": 4},\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[6, 6, 24, 24], [0, 0, 8, 8], [28, 0, 8, 8], [0, 28, 8, 8], [28, 28, 8, 8]],\n      \"doors\": [],\n      \"window\": {\"width\": 3, \"height\": 4, \"sill\": 2, \"gap\": 3},\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\": \"pyramid\", \"pitch\": 45, \"overhang\": 1, \"curve\": true},\n  \"columns\": null\n}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "近方形占地",
+      "hit": true
+    },
+    {
+      "name": "中轴对称",
+      "hit": true
+    },
+    {
+      "name": "台基",
+      "hit": true
+    },
+    {
+      "name": "居中入口",
+      "hit": true
+    },
+    {
+      "name": "居中收分的上层",
+      "hit": true
+    }
+  ],
+  "durationMs": 12410,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 18,
+    "depth": 18,
+    "height": 14.5,
+    "area": 528,
+    "prefabTotal": 833,
+    "windows": 42,
+    "doors": 1
+  }
+}

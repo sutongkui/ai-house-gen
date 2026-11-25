@@ -1,0 +1,57 @@
+{
+  "task": "T02",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 16232,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 13925
+      },
+      "raw": "{\n  \"name\": \"三层歇山楼阁\",\n  \"style\": \"chinese\",\n  \"design_notes\": \"首层五开间，南向正门居中。三层沿中轴逐层内收，下两层设腰檐，顶层无窗，歇山顶檐角起翘。\",\n  \"floor_height\": 7,\n  \"plinth\": 2,\n  \"floors\": [\n    {\n      \"blocks\": [[0, 0, 35, 22]],\n      \"doors\": [{\"block\": 0, \"side\": \"S\", \"at\": 0.5, \"width\": 5}],\n      \"window\": {\"width\": 3, \"height\": 4, \"sill\": 2, \"gap\": 4},\n      \"eave\": true\n    },\n    {\n      \"blocks\": [[2, 2, 31, 18]],\n      \"doors\": [{\"block\": 0, \"side\": \"S\", \"at\": 0.5, \"width\": 3}],\n      \"window\": {\"width\": 3, \"height\": 4, \"sill\": 2, \"gap\": 4},\n      \"eave\": true\n    },\n    {\n      \"blocks\": [[7, 4, 21, 14]],\n      \"doors\": [],\n      \"window\": \"none\",\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\": \"xieshan\", \"pitch\": 30, \"overhang\": 3, \"curve\": true},\n  \"columns\": {\"side\": \"S\", \"spacing\": 7, \"offset\": 3}\n}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "中式",
+      "hit": true
+    },
+    {
+      "name": "三层",
+      "hit": true
+    },
+    {
+      "name": "歇山顶",
+      "hit": true
+    },
+    {
+      "name": "南侧入户",
+      "hit": true
+    },
+    {
+      "name": "顶层无窗",
+      "hit": true
+    }
+  ],
+  "durationMs": 16232,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 17.5,
+    "depth": 11,
+    "height": 13.521,
+    "area": 406,
+    "prefabTotal": 773,
+    "windows": 26,
+    "doors": 2
+  }
+}

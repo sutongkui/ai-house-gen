@@ -1,0 +1,104 @@
+{
+  "name": "巴黎凯旋门",
+  "style": "european",
+  "design_notes": "南北正面以成对塔墩夹出内凹门洞，东西侧各开小门。顶部略收，形成平顶观景台。",
+  "floor_height": 8,
+  "plinth": 0,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          8,
+          14
+        ],
+        [
+          8,
+          1,
+          8,
+          12
+        ],
+        [
+          16,
+          0,
+          8,
+          14
+        ]
+      ],
+      "doors": [
+        {
+          "block": 1,
+          "side": "S",
+          "at": 0.5,
+          "width": 6
+        },
+        {
+          "block": 1,
+          "side": "N",
+          "at": 0.5,
+          "width": 6
+        },
+        {
+          "block": 0,
+          "side": "W",
+          "at": 0.5,
+          "width": 4
+        },
+        {
+          "block": 2,
+          "side": "E",
+          "at": 0.5,
+          "width": 4
+        }
+      ],
+      "window": "none",
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          8,
+          14
+        ],
+        [
+          8,
+          1,
+          8,
+          12
+        ],
+        [
+          16,
+          0,
+          8,
+          14
+        ]
+      ],
+      "doors": [],
+      "window": "none",
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          0,
+          1,
+          24,
+          12
+        ]
+      ],
+      "doors": [],
+      "window": "none",
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "flat",
+    "pitch": 0,
+    "overhang": 1,
+    "curve": false
+  },
+  "columns": null
+}

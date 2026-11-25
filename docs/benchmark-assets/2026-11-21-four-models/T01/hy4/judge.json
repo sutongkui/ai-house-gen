@@ -1,0 +1,17 @@
+{
+  "id": "A",
+  "seen": {
+    "literal": "两层，低女儿墙平屋顶，二层南退设通长玻璃栏杆露台，南面下层两窗一门、上层三窗",
+    "subject": "两层独立住宅式建筑",
+    "usage": "居住及露台休憩",
+    "style": "现代简约",
+    "scene": "浅色网格地面上的单体建筑"
+  },
+  "beauty": {
+    "proportion": 4,
+    "facade_rhythm": 5,
+    "roof_harmony": 5,
+    "style_coherence": 5
+  },
+  "reason": "南面上层三窗等距排列，下层双窗夹中央入口，两层共享中轴，平直屋沿与露台栏杆呼应。"
+}

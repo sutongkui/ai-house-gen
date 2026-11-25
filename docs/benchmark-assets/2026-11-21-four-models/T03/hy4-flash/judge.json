@@ -1,0 +1,17 @@
+{
+  "id": "D",
+  "seen": {
+    "literal": "单层，窄东翼向南突出，南向山墙一窗，东侧入口有台阶",
+    "subject": "带窄翼的独立低层房屋",
+    "usage": "可能为住宅",
+    "style": "传统乡村式，红褐交叉双坡屋顶",
+    "scene": "浅色网格地面上的建筑模型"
+  },
+  "beauty": {
+    "proportion": 4,
+    "facade_rhythm": 4,
+    "roof_harmony": 3,
+    "style_coherence": 4
+  },
+  "reason": "主屋三窗近似等距，窄翼山墙以单窗居中，但翼部屋面相对墙体外挑较深。"
+}

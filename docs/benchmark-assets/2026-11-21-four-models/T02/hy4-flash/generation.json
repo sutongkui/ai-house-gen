@@ -1,0 +1,59 @@
+{
+  "task": "T02",
+  "model": "hy4-flash",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 2313,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1802,
+        "completion_tokens": 261,
+        "total_tokens": 2063
+      },
+      "raw": "{\"name\":\"三层中式歇山楼阁\",\"style\":\"chinese\",\"design_notes\":\"中轴对称三层楼阁，南面正中开门，逐层收进形成露台，顶层无窗\",\"floor_height\":6,\"plinth\":2,\"floors\":[{\"blocks\":[[0,0,28,22]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":4}],\"window\":{\"width\":3,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[3,3,22,16]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":3}],\"window\":{\"width\":3,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[7,6,14,10]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":3}],\"window\":\"none\",\"eave\":false}],\"roof\":{\"type\":\"xieshan\",\"pitch\":30,\"overhang\":3,\"curve\":true},\"columns\":{\"side\":\"S\",\"spacing\":7,\"offset\":3}}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "中式",
+      "hit": true
+    },
+    {
+      "name": "三层",
+      "hit": true
+    },
+    {
+      "name": "歇山顶",
+      "hit": true
+    },
+    {
+      "name": "南侧入户",
+      "hit": true
+    },
+    {
+      "name": "顶层无窗",
+      "hit": true
+    }
+  ],
+  "durationMs": 2313,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 14,
+    "depth": 11,
+    "height": 11.443,
+    "area": 277,
+    "prefabTotal": 634,
+    "windows": 21,
+    "doors": 3
+  }
+}

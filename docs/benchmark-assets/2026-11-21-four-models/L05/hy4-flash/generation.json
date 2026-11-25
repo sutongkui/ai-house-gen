@@ -1,0 +1,59 @@
+{
+  "task": "L05",
+  "model": "hy4-flash",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 2743,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1797,
+        "completion_tokens": 305,
+        "total_tokens": 2102
+      },
+      "raw": "{\"name\":\"巴黎凯旋门主体\",\"style\":\"european\",\"design_notes\":\"以厚重方形主体与贯通中央拱门为核心，双侧翼墙收分，石雕纪念性立面\",\"floor_height\":8,\"plinth\":2,\"floors\":[{\"blocks\":[[0,0,40,14],[0,26,40,14],[0,14,10,12],[30,14,10,12]],\"doors\":[{\"block\":3,\"side\":\"E\",\"at\":0.5,\"width\":6},{\"block\":2,\"side\":\"W\",\"at\":0.5,\"width\":6}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":5},\"eave\":false},{\"blocks\":[[0,0,40,14],[0,26,40,14],[0,14,10,12],[30,14,10,12]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":5},\"eave\":false},{\"blocks\":[[0,0,40,14],[0,26,40,14],[0,14,10,12],[30,14,10,12]],\"doors\":[],\"window\":{\"none\":\"none\"},\"eave\":true}],\"roof\":{\"type\":\"flat\",\"pitch\":0,\"overhang\":2,\"curve\":false},\"columns\":null}"
+    }
+  ],
+  "status": "部分完成",
+  "checks": [
+    {
+      "name": "矩形占地",
+      "hit": false
+    },
+    {
+      "name": "宽门楼",
+      "hit": false
+    },
+    {
+      "name": "中轴对称",
+      "hit": true
+    },
+    {
+      "name": "平顶",
+      "hit": true
+    },
+    {
+      "name": "居中宽门洞近似",
+      "hit": false
+    }
+  ],
+  "durationMs": 2743,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 20,
+    "depth": 20,
+    "height": 13.9,
+    "area": 1020,
+    "prefabTotal": 1308,
+    "windows": 84,
+    "doors": 2
+  }
+}

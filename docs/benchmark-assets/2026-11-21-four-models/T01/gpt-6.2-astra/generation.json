@@ -1,0 +1,57 @@
+{
+  "task": "T01",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 12979,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 13863
+      },
+      "raw": "{\n  \"name\": \"南露台现代住宅\",\n  \"style\": \"modern\",\n  \"design_notes\": \"南面居中入户，二层南墙向北退让3米，形成通宽的带栏杆露台，起居面以宽窗采光。\",\n  \"floor_height\": 7,\n  \"plinth\": 0,\n  \"floors\": [\n    {\n      \"blocks\": [[0, 0, 30, 22]],\n      \"doors\": [{\"block\": 0, \"side\": \"S\", \"at\": 0.5, \"width\": 3}],\n      \"window\": {\"width\": 6, \"height\": 5, \"sill\": 1, \"gap\": 3},\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[0, 0, 30, 16]],\n      \"doors\": [{\"block\": 0, \"side\": \"S\", \"at\": 0.5, \"width\": 4}],\n      \"window\": {\"width\": 6, \"height\": 5, \"sill\": 1, \"gap\": 3},\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\": \"flat\", \"pitch\": 0, \"overhang\": 0, \"curve\": false},\n  \"columns\": null\n}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "现代",
+      "hit": true
+    },
+    {
+      "name": "两层",
+      "hit": true
+    },
+    {
+      "name": "平顶",
+      "hit": true
+    },
+    {
+      "name": "南侧入户",
+      "hit": true
+    },
+    {
+      "name": "南侧退台栏杆",
+      "hit": true
+    }
+  ],
+  "durationMs": 12979,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 15,
+    "depth": 11,
+    "height": 7.9,
+    "area": 285,
+    "prefabTotal": 420,
+    "windows": 16,
+    "doors": 2
+  }
+}

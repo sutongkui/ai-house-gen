@@ -1,0 +1,11 @@
+{
+  "id": "A",
+  "landmark": {
+    "silhouette": 2,
+    "massing": 2,
+    "roof": 2,
+    "facade": 2,
+    "signature": 2
+  },
+  "reason": "五层逐级收窄，白墙配深色格窗，层层外挑檐与陡坡顶形成鲜明的天守阁轮廓。"
+}

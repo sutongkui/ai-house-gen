@@ -1,0 +1,57 @@
+{
+  "task": "L05",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 24074,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 14170
+      },
+      "raw": "{\n  \"name\": \"巴黎凯旋门\",\n  \"style\": \"european\",\n  \"design_notes\": \"南北正面以成对塔墩夹出内凹门洞，东西侧各开小门。顶部略收，形成平顶观景台。\",\n  \"floor_height\": 8,\n  \"plinth\": 0,\n  \"floors\": [\n    {\n      \"blocks\": [[0, 0, 8, 14], [8, 1, 8, 12], [16, 0, 8, 14]],\n      \"doors\": [\n        {\"block\": 1, \"side\": \"S\", \"at\": 0.5, \"width\": 6},\n        {\"block\": 1, \"side\": \"N\", \"at\": 0.5, \"width\": 6},\n        {\"block\": 0, \"side\": \"W\", \"at\": 0.5, \"width\": 4},\n        {\"block\": 2, \"side\": \"E\", \"at\": 0.5, \"width\": 4}\n      ],\n      \"window\": \"none\",\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[0, 0, 8, 14], [8, 1, 8, 12], [16, 0, 8, 14]],\n      \"doors\": [],\n      \"window\": \"none\",\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[0, 1, 24, 12]],\n      \"doors\": [],\n      \"window\": \"none\",\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\": \"flat\", \"pitch\": 0, \"overhang\": 1, \"curve\": false},\n  \"columns\": null\n}"
+    }
+  ],
+  "status": "部分完成",
+  "checks": [
+    {
+      "name": "矩形占地",
+      "hit": false
+    },
+    {
+      "name": "宽门楼",
+      "hit": true
+    },
+    {
+      "name": "中轴对称",
+      "hit": true
+    },
+    {
+      "name": "平顶",
+      "hit": true
+    },
+    {
+      "name": "居中宽门洞近似",
+      "hit": true
+    }
+  ],
+  "durationMs": 24074,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 12,
+    "depth": 7,
+    "height": 12.9,
+    "area": 232,
+    "prefabTotal": 383,
+    "windows": 0,
+    "doors": 4
+  }
+}

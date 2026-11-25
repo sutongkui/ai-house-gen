@@ -1,0 +1,123 @@
+{
+  "task": "L04",
+  "model": "hy4",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 3657,
+      "format": 4,
+      "errors": [
+        {
+          "code": "E_BLOCKS",
+          "msg": "第1层 block4 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第1层 block5 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第2层 block3 超出 0~80 格的场地范围",
+          "hard": true
+        },
+        {
+          "code": "E_BLOCKS",
+          "msg": "第2层 block4 超出 0~80 格的场地范围",
+          "hard": true
+        }
+      ],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1799,
+        "completion_tokens": 326,
+        "total_tokens": 2125
+      },
+      "raw": "{\"name\":\"泰姬陵主陵\",\"style\":\"chinese\",\"design_notes\":\"取白色穹顶、四角塔与对称拱门意象，按可行屋顶折算为攒尖穹顶体块\",\"floor_height\":8,\"plinth\":2,\"floors\":[{\"blocks\":[[0,0,40,40],[4,4,32,32],[44,4,8,8],[44,28,8,8],[-8,4,8,8],[-8,28,8,8]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":6},{\"block\":0,\"side\":\"N\",\"at\":0.5,\"width\":4}],\"window\":{\"width\":3,\"height\":5,\"sill\":2,\"gap\":4},\"eave\":false},{\"blocks\":[[4,4,32,32],[44,4,8,8],[44,28,8,8],[-8,4,8,8],[-8,28,8,8]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[10,10,20,20]],\"doors\":[],\"window\":{\"width\":3,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"pyramid\",\"pitch\":30,\"overhang\":3,\"curve\":true},\"columns\":null}"
+    },
+    {
+      "round": 2,
+      "durationMs": 3096,
+      "format": 4,
+      "errors": [
+        {
+          "code": "E_DISCONNECTED",
+          "hard": true,
+          "msg": "第1层 的矩形之间没有相接，平面不连通"
+        },
+        {
+          "code": "E_DISCONNECTED",
+          "hard": true,
+          "msg": "第2层 的矩形之间没有相接，平面不连通"
+        }
+      ],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 2265,
+        "completion_tokens": 322,
+        "total_tokens": 2587,
+        "prompt_tokens_details": {
+          "cached_tokens": 1728
+        }
+      },
+      "raw": "{\"name\":\"泰姬陵主陵\",\"style\":\"chinese\",\"design_notes\":\"取白色穹顶、四角塔与对称拱门意象，按可行屋顶折算为攒尖穹顶体块\",\"floor_height\":8,\"plinth\":2,\"floors\":[{\"blocks\":[[8,0,40,40],[12,4,32,32],[52,4,8,8],[52,28,8,8],[0,4,8,8],[0,28,8,8]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":6},{\"block\":0,\"side\":\"N\",\"at\":0.5,\"width\":4}],\"window\":{\"width\":3,\"height\":5,\"sill\":2,\"gap\":4},\"eave\":false},{\"blocks\":[[12,4,32,32],[52,4,8,8],[52,28,8,8],[0,4,8,8],[0,28,8,8]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[18,10,20,20]],\"doors\":[],\"window\":{\"width\":3,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"pyramid\",\"pitch\":30,\"overhang\":3,\"curve\":true},\"columns\":null}"
+    },
+    {
+      "round": 3,
+      "durationMs": 3213,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 2677,
+        "completion_tokens": 330,
+        "total_tokens": 3007,
+        "prompt_tokens_details": {
+          "cached_tokens": 2176
+        }
+      },
+      "raw": "{\"name\":\"泰姬陵主陵\",\"style\":\"chinese\",\"design_notes\":\"取白色穹顶、四角塔与对称拱门意象，按可行屋顶折算为攒尖穹顶体块\",\"floor_height\":8,\"plinth\":2,\"floors\":[{\"blocks\":[[0,0,60,40],[8,4,44,32],[52,4,8,8],[52,28,8,8],[0,4,8,8],[0,28,8,8]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":6},{\"block\":0,\"side\":\"N\",\"at\":0.5,\"width\":4}],\"window\":{\"width\":3,\"height\":5,\"sill\":2,\"gap\":4},\"eave\":false},{\"blocks\":[[0,4,60,32],[8,4,44,32],[52,4,8,8],[52,28,8,8],[0,4,8,8],[0,28,8,8]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[20,10,20,20]],\"doors\":[],\"window\":{\"width\":3,\"height\":3,\"sill\":2,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"pyramid\",\"pitch\":30,\"overhang\":3,\"curve\":true},\"columns\":null}"
+    }
+  ],
+  "status": "部分完成",
+  "checks": [
+    {
+      "name": "近方形占地",
+      "hit": false
+    },
+    {
+      "name": "中轴对称",
+      "hit": true
+    },
+    {
+      "name": "台基",
+      "hit": true
+    },
+    {
+      "name": "居中入口",
+      "hit": true
+    },
+    {
+      "name": "居中收分的上层",
+      "hit": true
+    }
+  ],
+  "durationMs": 9966,
+  "scores": {
+    "rules": 26
+  },
+  "selectedRound": 3,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 30,
+    "depth": 20,
+    "height": 15.887,
+    "area": 1180,
+    "prefabTotal": 1922,
+    "windows": 60,
+    "doors": 2
+  }
+}

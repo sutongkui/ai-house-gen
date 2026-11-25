@@ -1,0 +1,17 @@
+{
+  "id": "B",
+  "seen": {
+    "literal": "单层矩形体块，深灰双坡屋顶，南面六块浅色墙板，东面见山墙",
+    "subject": "单层坡顶小屋",
+    "usage": "",
+    "style": "简约乡居风",
+    "scene": "浅色网格地面上的建筑模型"
+  },
+  "beauty": {
+    "proportion": 3,
+    "facade_rhythm": 3,
+    "roof_harmony": 3,
+    "style_coherence": 4
+  },
+  "reason": "正视图中深灰屋面相对墙身更高，出檐下六块等宽墙板仍保持整齐。"
+}

@@ -1,0 +1,41 @@
+{
+  "task": "M04",
+  "model": "hy4",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 3924,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 3482,
+        "completion_tokens": 224,
+        "total_tokens": 3706,
+        "prompt_tokens_details": {
+          "cached_tokens": 1728
+        }
+      },
+      "raw": "{\"name\":\"泰姬陵主体简化\",\"style\":\"european\",\"design_notes\":\"读为对称穹顶陵庙：中央高大体块、四角小亭，南面中央大拱门与竖向窗。\",\"floor_height\":8,\"plinth\":2,\"floors\":[{\"blocks\":[[0,0,40,28],[2,2,10,8],[28,2,10,8]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":6}],\"window\":{\"width\":3,\"height\":5,\"sill\":2,\"gap\":6},\"eave\":false},{\"blocks\":[[6,4,28,20],[2,2,10,8],[28,2,10,8]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":5},\"eave\":true}],\"roof\":{\"type\":\"hip\",\"pitch\":35,\"overhang\":3,\"curve\":false},\"columns\":null}"
+    }
+  ],
+  "status": "待评分",
+  "checks": [],
+  "durationMs": 3925,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 20,
+    "depth": 14,
+    "height": 12.501,
+    "area": 442,
+    "prefabTotal": 711,
+    "windows": 25,
+    "doors": 1
+  }
+}

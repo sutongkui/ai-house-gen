@@ -1,0 +1,59 @@
+{
+  "task": "L01",
+  "model": "hy4-flash",
+  "effort": "no_think",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 1959,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "prompt_tokens": 1796,
+        "completion_tokens": 195,
+        "total_tokens": 1991
+      },
+      "raw": "{\"name\":\"太和殿主体\",\"style\":\"chinese\",\"design_notes\":\"三层台基承托重檐庑殿，面阔十一开间，中轴对称南向正门\",\"floor_height\":7,\"plinth\":3,\"floors\":[{\"blocks\":[[0,0,77,42]],\"doors\":[{\"block\":0,\"side\":\"S\",\"at\":0.5,\"width\":6}],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":true},{\"blocks\":[[0,0,70,38]],\"doors\":[],\"window\":{\"width\":3,\"height\":4,\"sill\":2,\"gap\":4},\"eave\":false}],\"roof\":{\"type\":\"hip\",\"pitch\":30,\"overhang\":3,\"curve\":true},\"columns\":{\"side\":\"S\",\"spacing\":7,\"offset\":3}}"
+    }
+  ],
+  "status": "成功",
+  "checks": [
+    {
+      "name": "中式",
+      "hit": true
+    },
+    {
+      "name": "宽横向殿身",
+      "hit": true
+    },
+    {
+      "name": "台基",
+      "hit": true
+    },
+    {
+      "name": "中轴对称",
+      "hit": true
+    },
+    {
+      "name": "四坡主顶",
+      "hit": true
+    }
+  ],
+  "durationMs": 1959,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 38.5,
+    "depth": 21,
+    "height": 13.985,
+    "area": 1474,
+    "prefabTotal": 1881,
+    "windows": 63,
+    "doors": 1
+  }
+}

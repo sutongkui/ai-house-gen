@@ -1,0 +1,11 @@
+{
+  "id": "D",
+  "landmark": {
+    "silhouette": 2,
+    "massing": 1,
+    "roof": 2,
+    "facade": 2,
+    "signature": 1
+  },
+  "reason": "近方形主体上方有明显高起的中央屋顶，入口所在墙段沿中轴前凸。上部体量明显收进，开窗下部占比偏大，底部台基较低。"
+}

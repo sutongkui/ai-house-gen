@@ -1,0 +1,17 @@
+{
+  "id": "B",
+  "seen": {
+    "literal": "三层退台，底层四扇格窗夹门，二层有中门与三扇格窗",
+    "subject": "中式三层楼阁",
+    "usage": "可供登临与凭栏观景",
+    "style": "传统中式，深灰屋面配红柱木栏",
+    "scene": "浅色背景中的网格地面与独立楼阁"
+  },
+  "beauty": {
+    "proportion": 4,
+    "facade_rhythm": 3,
+    "roof_harmony": 4,
+    "style_coherence": 5
+  },
+  "reason": "三层檐口随台基向上逐级收窄，首层格窗成对分布，二层中门西侧两窗、东侧一窗，左右节奏出现变化。"
+}

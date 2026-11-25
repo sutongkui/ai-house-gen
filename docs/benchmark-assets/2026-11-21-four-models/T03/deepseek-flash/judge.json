@@ -1,0 +1,17 @@
+{
+  "id": "A",
+  "seen": {
+    "literal": "单层，南侧主墙五窗，东翼南向山墙一窗，红褐色双坡屋顶",
+    "subject": "带侧翼的独立低层房屋",
+    "usage": "可能为住宅",
+    "style": "传统乡村式，浅色墙面配红褐坡屋顶",
+    "scene": "浅色网格地面上的建筑模型"
+  },
+  "beauty": {
+    "proportion": 4,
+    "facade_rhythm": 4,
+    "roof_harmony": 3,
+    "style_coherence": 4
+  },
+  "reason": "南侧五窗间距近似，东翼体量较小，两片屋檐在交接处形成显眼的三角叠影。"
+}

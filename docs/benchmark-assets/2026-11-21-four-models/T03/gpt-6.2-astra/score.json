@@ -1,0 +1,13 @@
+{
+  "rules": 30,
+  "fit": 22.71856102125684,
+  "beauty": 18,
+  "landmark": null,
+  "similarities": {
+    "literal": 0.9064901788050465,
+    "subject": 0.8482065417599851,
+    "style": 0.7988806600319444
+  },
+  "fitChecks": 10,
+  "fitEmbedding": 12.718561021256837
+}

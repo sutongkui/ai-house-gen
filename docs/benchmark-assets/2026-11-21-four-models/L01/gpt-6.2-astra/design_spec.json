@@ -1,0 +1,82 @@
+{
+  "name": "北京故宫太和殿",
+  "style": "chinese",
+  "design_notes": "南面按十一开间布柱，中轴设正门。以收进的无窗上层模拟重檐庑殿顶。",
+  "floor_height": 9,
+  "plinth": 3,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          77,
+          40
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.3182,
+          "width": 5
+        },
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.4091,
+          "width": 5
+        },
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 6
+        },
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5909,
+          "width": 5
+        },
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.6818,
+          "width": 5
+        }
+      ],
+      "window": {
+        "width": 7,
+        "height": 6,
+        "sill": 2,
+        "gap": 5
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          5,
+          5,
+          67,
+          30
+        ]
+      ],
+      "doors": [],
+      "window": "none",
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "hip",
+    "pitch": 31,
+    "overhang": 5,
+    "curve": true
+  },
+  "columns": {
+    "side": "S",
+    "spacing": 7,
+    "offset": 5
+  }
+}

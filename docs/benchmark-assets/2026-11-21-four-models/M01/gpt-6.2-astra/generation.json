@@ -1,0 +1,36 @@
+{
+  "task": "M01",
+  "model": "gpt-6.2-astra",
+  "effort": "high",
+  "rounds": [
+    {
+      "round": 1,
+      "durationMs": 27157,
+      "format": 4,
+      "errors": [],
+      "warnings": [],
+      "usage": {
+        "total_tokens": 16328
+      },
+      "raw": "{\n  \"name\": \"白宫式古典官邸\",\n  \"style\": \"european\",\n  \"design_notes\": \"两层横向对称展开，南面中央入口前设柱廊，以浅双坡屋顶形成三角山花，两翼竖窗上下对齐。\",\n  \"floor_height\": 9,\n  \"plinth\": 1,\n  \"floors\": [\n    {\n      \"blocks\": [[0, 0, 78, 16], [0, 16, 26, 23], [26, 16, 26, 28], [52, 16, 26, 23]],\n      \"doors\": [{\"block\": 2, \"side\": \"S\", \"at\": 0.5, \"width\": 3}],\n      \"window\": {\"width\": 2, \"height\": 5, \"sill\": 2, \"gap\": 4},\n      \"eave\": false\n    },\n    {\n      \"blocks\": [[0, 0, 78, 16], [0, 16, 26, 23], [26, 16, 26, 28], [52, 16, 26, 23]],\n      \"doors\": [],\n      \"window\": {\"width\": 2, \"height\": 5, \"sill\": 2, \"gap\": 4},\n      \"eave\": false\n    }\n  ],\n  \"roof\": {\"type\": \"gable\", \"pitch\": 23, \"overhang\": 1, \"curve\": false},\n  \"columns\": {\"side\": \"S\", \"spacing\": 8, \"offset\": 3}\n}"
+    }
+  ],
+  "status": "待评分",
+  "checks": [],
+  "durationMs": 27159,
+  "scores": {
+    "rules": 30
+  },
+  "selectedRound": 1,
+  "errors": [],
+  "warnings": [],
+  "stats": {
+    "width": 39,
+    "depth": 22,
+    "height": 12.259,
+    "area": 1586,
+    "prefabTotal": 1891,
+    "windows": 77,
+    "doors": 1
+  }
+}

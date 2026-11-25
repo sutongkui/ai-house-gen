@@ -1,0 +1,59 @@
+{
+  "name": "单层日式围院民宿",
+  "style": "japanese",
+  "design_notes": "矩形围合露天内院，西侧设主入口，四坡起翘屋顶覆盖四翼",
+  "floor_height": 6,
+  "plinth": 1,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          32,
+          6
+        ],
+        [
+          0,
+          6,
+          6,
+          20
+        ],
+        [
+          26,
+          6,
+          6,
+          20
+        ],
+        [
+          0,
+          26,
+          32,
+          6
+        ]
+      ],
+      "doors": [
+        {
+          "block": 1,
+          "side": "W",
+          "at": 0.5,
+          "width": 3
+        }
+      ],
+      "window": {
+        "width": 5,
+        "height": 3,
+        "sill": 1,
+        "gap": 4
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "hip",
+    "pitch": 28,
+    "overhang": 3,
+    "curve": true
+  },
+  "columns": null
+}

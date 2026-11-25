@@ -1,0 +1,11 @@
+{
+  "id": "B",
+  "landmark": {
+    "silhouette": 1,
+    "massing": 2,
+    "roof": 2,
+    "facade": 1,
+    "signature": 1
+  },
+  "reason": "近方形主体与内退上层的关系清楚，中央屋顶明显高起。整体偏低展，入口与墙面齐平，台基较低。"
+}

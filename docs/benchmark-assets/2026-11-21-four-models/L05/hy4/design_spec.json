@@ -1,0 +1,65 @@
+{
+  "name": "巴黎凯旋门主体",
+  "style": "european",
+  "design_notes": "按纪念性拱门体量做厚墙方主体，四面深拱洞，以平顶女儿墙概括",
+  "floor_height": 9,
+  "plinth": 1,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          28,
+          20
+        ],
+        [
+          6,
+          20,
+          16,
+          6
+        ]
+      ],
+      "doors": [
+        {
+          "block": 1,
+          "side": "S",
+          "at": 0.5,
+          "width": 6
+        },
+        {
+          "block": 0,
+          "side": "N",
+          "at": 0.5,
+          "width": 6
+        },
+        {
+          "block": 0,
+          "side": "E",
+          "at": 0.5,
+          "width": 6
+        },
+        {
+          "block": 0,
+          "side": "W",
+          "at": 0.5,
+          "width": 6
+        }
+      ],
+      "window": {
+        "width": 2,
+        "height": 4,
+        "sill": 2,
+        "gap": 5
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "flat",
+    "pitch": 0,
+    "overhang": 1,
+    "curve": false
+  },
+  "columns": null
+}

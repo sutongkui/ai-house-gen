@@ -1,0 +1,131 @@
+{
+  "name": "卡通斜塔住宅",
+  "style": "european",
+  "design_notes": "参考图为比萨斜塔式圆塔，保留六层退台、拱券开口与顶层平檐；倾斜体量由逐层偏移近似表达",
+  "floor_height": 8,
+  "plinth": 1,
+  "floors": [
+    {
+      "blocks": [
+        [
+          0,
+          0,
+          24,
+          24
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 4
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 5,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          2,
+          2,
+          22,
+          22
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 5,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          4,
+          3,
+          20,
+          20
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 5,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          6,
+          4,
+          18,
+          18
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 5,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          8,
+          5,
+          16,
+          16
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 5,
+        "sill": 1,
+        "gap": 3
+      },
+      "eave": true
+    },
+    {
+      "blocks": [
+        [
+          10,
+          6,
+          14,
+          14
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 4,
+        "height": 4,
+        "sill": 2,
+        "gap": 5
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "flat",
+    "pitch": 0,
+    "overhang": 2,
+    "curve": false
+  },
+  "columns": null
+}

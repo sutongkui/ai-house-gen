@@ -1,0 +1,123 @@
+{
+  "name": "白金汉宫东立面主体",
+  "style": "european",
+  "design_notes": "读图：新古典主义对称石构宫殿，东立面横向三分五段、竖向四层，中央凸出门廊，平屋顶女儿墙，竖向长窗，石基座",
+  "floor_height": 7,
+  "plinth": 2,
+  "floors": [
+    {
+      "blocks": [
+        [
+          4,
+          10,
+          72,
+          30
+        ],
+        [
+          34,
+          4,
+          12,
+          6
+        ]
+      ],
+      "doors": [
+        {
+          "block": 0,
+          "side": "S",
+          "at": 0.5,
+          "width": 5
+        }
+      ],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          4,
+          10,
+          72,
+          30
+        ],
+        [
+          34,
+          4,
+          12,
+          6
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          4,
+          10,
+          72,
+          30
+        ],
+        [
+          34,
+          4,
+          12,
+          6
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 4,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": false
+    },
+    {
+      "blocks": [
+        [
+          4,
+          10,
+          72,
+          30
+        ],
+        [
+          34,
+          4,
+          12,
+          6
+        ]
+      ],
+      "doors": [],
+      "window": {
+        "width": 3,
+        "height": 3,
+        "sill": 2,
+        "gap": 4
+      },
+      "eave": false
+    }
+  ],
+  "roof": {
+    "type": "flat",
+    "pitch": 0,
+    "overhang": 0,
+    "curve": false
+  },
+  "columns": {
+    "side": "S",
+    "spacing": 7,
+    "offset": 3
+  }
+}
